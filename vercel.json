@@ -1,0 +1,124 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "",
+  "redirects": [
+    {
+      "source": "/index.php",
+      "destination": "/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/estilo-de-puertas.php",
+      "destination": "/puertas.html",
+      "permanent": true
+    },
+    {
+      "source": "/maderas-y-acabados.php",
+      "destination": "/materiales.html",
+      "permanent": true
+    },
+    {
+      "source": "/nosotros.php",
+      "destination": "/empresa.html",
+      "permanent": true
+    },
+    {
+      "source": "/contacto.php",
+      "destination": "/contacto.html",
+      "permanent": true
+    },
+    {
+      "source": "/distribuidores.php",
+      "destination": "/donde-comprar.html",
+      "permanent": true
+    },
+    {
+      "source": "/proyectos-especiales.php",
+      "destination": "/profesionales.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos-para-profesionales.php",
+      "destination": "/recursos-tecnicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/recursos-de-instalacion.php",
+      "destination": "/recursos-tecnicos.html",
+      "permanent": true
+    },
+    {
+      "source": "/sistema-de-marcos.php",
+      "destination": "/marcos.html",
+      "permanent": true
+    },
+    {
+      "source": "/herrajes.php",
+      "destination": "/materiales.html#herrajes",
+      "permanent": true
+    },
+    {
+      "source": "/burletes.php",
+      "destination": "/materiales.html#herrajes",
+      "permanent": true
+    },
+    {
+      "source": "/configuraciones-de-puertas.php",
+      "destination": "/puertas.html",
+      "permanent": true
+    },
+    {
+      "source": "/sobre-nuestras-puertas.php",
+      "destination": "/materiales.html",
+      "permanent": true
+    },
+    {
+      "source": "/tecnologia-superior.php",
+      "destination": "/empresa.html",
+      "permanent": true
+    },
+    {
+      "source": "/puertas-de-interior-pintada.php",
+      "destination": "/placa-pintada.html",
+      "permanent": true
+    },
+    {
+      "source": "/puertas-de-interior-foliada.php",
+      "destination": "/placa-foliada.html",
+      "permanent": true
+    },
+    {
+      "source": "/puertas-de-interior-enchapada.php",
+      "destination": "/placa-enchapada.html",
+      "permanent": true
+    },
+    {
+      "source": "/puertas-de-interior-aldeana.php",
+      "destination": "/aldeana.html",
+      "permanent": true
+    },
+    {
+      "source": "/puertas-de-interior-toscana.php",
+      "destination": "/toscana.html",
+      "permanent": true
+    },
+    {
+      "source": "/puertas-de-interior-sardegna.php",
+      "destination": "/sardegna.html",
+      "permanent": true
+    },
+    {
+      "source": "/puertas-de-interior-avignon.php",
+      "destination": "/avignon.html",
+      "permanent": true
+    },
+    {
+      "source": "/puertas-de-interior-burdeos.php",
+      "destination": "/burdeos.html",
+      "permanent": true
+    }
+  ]
+}

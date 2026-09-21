@@ -1,0 +1,1438 @@
+{
+  "notes": [
+    "Todas las imágenes son oficiales. Los renders de puertas no son fotografías de ambientes.",
+    "Se preservó el tamaño/canvas de producto 600 × 600 y el alpha original. No se eliminó el fondo blanco de JPG.",
+    "Las muestras y renders verifican el aspecto del acabado en el sitio existente; no afirman la disponibilidad del catálogo nuevo. Priorizar los PDF proporcionados.",
+    "Burdeos Cedro descargado durante la revisión se excluyó de assets web, galerías y acabados: el PDF vigente aportado solo documenta Nogal y pintados.",
+    "No se inventaron vistas para acabados que no tienen imagen alternativa.",
+    "Grandes a resolución original; miniaturas a máximo 320px, sin ampliar la muestra blanca de 50px."
+  ],
+  "lines": [
+    {
+      "id": "placa-pintada",
+      "name": "Placa pintada",
+      "source_page": "https://www.marroncelli.com/puertas-de-interior-pintada.php",
+      "main": "placa-pin-blanco-a1",
+      "gallery": [
+        "placa-pin-blanco-b1"
+      ],
+      "finishes": [
+        {
+          "finish": "Pintado blanco",
+          "image": "placa-pin-blanco-a1",
+          "alternate": "placa-pin-blanco-b1",
+          "swatch": "blanco",
+          "source_filename": "Placa_Pin_Blanco_A1"
+        }
+      ]
+    },
+    {
+      "id": "placa-foliada",
+      "name": "Placa foliada",
+      "source_page": "https://www.marroncelli.com/puertas-de-interior-foliada.php",
+      "main": "placa-fol-nogal-a1",
+      "gallery": [
+        "placa-fol-roble-a1",
+        "placa-fol-blanco-a1"
+      ],
+      "finishes": [
+        {
+          "finish": "Foliado blanco",
+          "image": "placa-fol-blanco-a1",
+          "alternate": null,
+          "swatch": "foliados-blanco",
+          "source_filename": "Placa_Fol_Blanco_A1"
+        },
+        {
+          "finish": "Foliado nogal",
+          "image": "placa-fol-nogal-a1",
+          "alternate": null,
+          "swatch": "foliados-nogal",
+          "source_filename": "Placa_Fol_Nogal_A1"
+        },
+        {
+          "finish": "Foliado roble",
+          "image": "placa-fol-roble-a1",
+          "alternate": null,
+          "swatch": "foliados-roble",
+          "source_filename": "Placa_Fol_Roble_A1"
+        }
+      ]
+    },
+    {
+      "id": "placa-enchapada",
+      "name": "Placa enchapada",
+      "source_page": "https://www.marroncelli.com/puertas-de-interior-enchapada.php",
+      "main": "placa-en-nogal-rayado-a2",
+      "gallery": [
+        "placa-en-nogal-rayado-b2",
+        "placa-en-roble-floreado-a1"
+      ],
+      "finishes": [
+        {
+          "finish": "Enchapado de nogal rayado",
+          "image": "placa-en-nogal-rayado-a2",
+          "alternate": "placa-en-nogal-rayado-b2",
+          "swatch": "enchapada-nogal-rayado",
+          "source_filename": "Placa_En_Nogal-Rayado_A2"
+        },
+        {
+          "finish": "Enchapado de roble de Eslavonia",
+          "image": "placa-en-roble-eslavonia-a1",
+          "alternate": "placa-en-roble-eslavonia-b1",
+          "swatch": "enchapado-de-madera-roble-eslavonia",
+          "source_filename": "Placa_En_Roble-Eslavonia_A1"
+        },
+        {
+          "finish": "Enchapado de roble floreado",
+          "image": "placa-en-roble-floreado-a1",
+          "alternate": null,
+          "swatch": "enchapado-de-madera-roble-floreado",
+          "source_filename": "Placa_En_Roble-Floreado_A1"
+        }
+      ]
+    },
+    {
+      "id": "aldeana",
+      "name": "Aldeana",
+      "source_page": "https://www.marroncelli.com/puertas-de-interior-aldeana.php",
+      "main": "aldeana-en-nogal-rayado-a2",
+      "gallery": [
+        "aldeana-en-nogal-rayado-b2",
+        "aldeana-pin-blanco-a1"
+      ],
+      "finishes": [
+        {
+          "finish": "Enchapado de nogal rayado",
+          "image": "aldeana-en-nogal-rayado-a2",
+          "alternate": "aldeana-en-nogal-rayado-b2",
+          "swatch": "enchapada-nogal-rayado",
+          "source_filename": "Aldeana_En_Nogal-Rayado_A2"
+        },
+        {
+          "finish": "Enchapado de roble de Eslavonia",
+          "image": "aldeana-en-roble-eslavonia-a1",
+          "alternate": null,
+          "swatch": "enchapado-de-madera-roble-eslavonia",
+          "source_filename": "Aldeana_En_Roble-Eslavonia_A1"
+        },
+        {
+          "finish": "Enchapado de roble floreado",
+          "image": "aldeana-en-roble-floreado-a1",
+          "alternate": null,
+          "swatch": "enchapado-de-madera-roble-floreado",
+          "source_filename": "Aldeana_En_Roble-Floreado_A1"
+        },
+        {
+          "finish": "Pintado blanco",
+          "image": "aldeana-pin-blanco-a1",
+          "alternate": null,
+          "swatch": "blanco",
+          "source_filename": "Aldeana_Pin_Blanco_A1"
+        }
+      ]
+    },
+    {
+      "id": "toscana",
+      "name": "Toscana",
+      "source_page": "https://www.marroncelli.com/puertas-de-interior-toscana.php",
+      "main": "toscana-en-nogal-rayado-a2",
+      "gallery": [
+        "toscana-en-nogal-rayado-b2",
+        "toscana-pin-blanco-a1"
+      ],
+      "finishes": [
+        {
+          "finish": "Enchapado de nogal rayado",
+          "image": "toscana-en-nogal-rayado-a2",
+          "alternate": "toscana-en-nogal-rayado-b2",
+          "swatch": "enchapada-nogal-rayado",
+          "source_filename": "Toscana_En_Nogal-Rayado_A2"
+        },
+        {
+          "finish": "Enchapado de roble de Eslavonia",
+          "image": "toscana-en-roble-eslavonia-a1",
+          "alternate": null,
+          "swatch": "enchapado-de-madera-roble-eslavonia",
+          "source_filename": "Toscana_En_Roble-Eslavonia_A1"
+        },
+        {
+          "finish": "Enchapado de roble floreado",
+          "image": "toscana-en-roble-floreado-a1",
+          "alternate": null,
+          "swatch": "enchapado-de-madera-roble-floreado",
+          "source_filename": "Toscana_En_Roble-Floreado_A1"
+        },
+        {
+          "finish": "Pintado blanco",
+          "image": "toscana-pin-blanco-a1",
+          "alternate": null,
+          "swatch": "blanco",
+          "source_filename": "Toscana_Pin_Blanco_A1"
+        }
+      ]
+    },
+    {
+      "id": "sardegna",
+      "name": "Sardegna",
+      "source_page": "https://www.marroncelli.com/puertas-de-interior-sardegna.php",
+      "main": "sardegna-mad-nogal-a1",
+      "gallery": [
+        "sardegna-mad-nogal-b1",
+        "sardegna-pin-blanco-a1"
+      ],
+      "finishes": [
+        {
+          "finish": "Madera maciza de nogal",
+          "image": "sardegna-mad-nogal-a1",
+          "alternate": "sardegna-mad-nogal-b1",
+          "swatch": "madera-maciza-nogal",
+          "source_filename": "Sardegna_Mad_Nogal_A1"
+        },
+        {
+          "finish": "Madera maciza de cedro",
+          "image": "sardegna-mad-cedro-a1",
+          "alternate": null,
+          "swatch": "madera-maciza-cedro",
+          "source_filename": "Sardegna_Mad_Cedro_A1"
+        },
+        {
+          "finish": "Pintado blanco",
+          "image": "sardegna-pin-blanco-a1",
+          "alternate": null,
+          "swatch": "blanco",
+          "source_filename": "Sardegna_Pin_Blanco_A1"
+        }
+      ]
+    },
+    {
+      "id": "avignon",
+      "name": "Avignon",
+      "source_page": "https://www.marroncelli.com/puertas-de-interior-avignon.php",
+      "main": "avignon-mad-nogal-a1",
+      "gallery": [
+        "avignon-pin-blanco-a1",
+        "avignon-pin-blanco-b1"
+      ],
+      "finishes": [
+        {
+          "finish": "Pintado blanco",
+          "image": "avignon-pin-blanco-a1",
+          "alternate": "avignon-pin-blanco-b1",
+          "swatch": "blanco",
+          "source_filename": "Avignon_Pin_Blanco_A1"
+        },
+        {
+          "finish": "Madera maciza de cedro",
+          "image": "avignon-mad-cedro-a1",
+          "alternate": null,
+          "swatch": "madera-maciza-cedro",
+          "source_filename": "Avignon_Mad_Cedro_A1"
+        },
+        {
+          "finish": "Madera maciza de nogal",
+          "image": "avignon-mad-nogal-a1",
+          "alternate": null,
+          "swatch": "madera-maciza-nogal",
+          "source_filename": "Avignon_Mad_Nogal_A1"
+        }
+      ]
+    },
+    {
+      "id": "burdeos",
+      "name": "Burdeos",
+      "source_page": "https://www.marroncelli.com/puertas-de-interior-burdeos.php",
+      "main": "burdeos-mad-nogal-a1",
+      "gallery": [
+        "burdeos-mad-nogal-b1",
+        "burdeos-pin-blanco-a1"
+      ],
+      "finishes": [
+        {
+          "finish": "Madera maciza de nogal",
+          "image": "burdeos-mad-nogal-a1",
+          "alternate": "burdeos-mad-nogal-b1",
+          "swatch": "madera-maciza-nogal",
+          "source_filename": "Burdeos_Mad_Nogal_A1"
+        },
+        {
+          "finish": "Pintado blanco",
+          "image": "burdeos-pin-blanco-a1",
+          "alternate": null,
+          "swatch": "blanco",
+          "source_filename": "Burdeos_Pin_Blanco_A1"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Aldeana_En_Nogal-Rayado_A2.png",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php",
+        "https://www.marroncelli.com/puertas-de-interior-aldeana.php"
+      ],
+      "file": "originales/Aldeana_En_Nogal-Rayado_A2.png",
+      "width": 600,
+      "height": 600,
+      "mode": "RGBA",
+      "transparent": true,
+      "id": "aldeana-en-nogal-rayado-a2",
+      "web": {
+        "grande": {
+          "file": "web/aldeana-en-nogal-rayado-a2-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 108220
+        },
+        "miniatura": {
+          "file": "web/aldeana-en-nogal-rayado-a2-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 33014
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Aldeana_En_Nogal-Rayado_B2.png",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php"
+      ],
+      "file": "originales/Aldeana_En_Nogal-Rayado_B2.png",
+      "width": 600,
+      "height": 600,
+      "mode": "RGBA",
+      "transparent": true,
+      "id": "aldeana-en-nogal-rayado-b2",
+      "web": {
+        "grande": {
+          "file": "web/aldeana-en-nogal-rayado-b2-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 105472
+        },
+        "miniatura": {
+          "file": "web/aldeana-en-nogal-rayado-b2-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 32542
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Avignon_Pin_Blanco_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php",
+        "https://www.marroncelli.com/puertas-de-interior-avignon.php"
+      ],
+      "file": "originales/Avignon_Pin_Blanco_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "avignon-pin-blanco-a1",
+      "web": {
+        "grande": {
+          "file": "web/avignon-pin-blanco-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 3912
+        },
+        "miniatura": {
+          "file": "web/avignon-pin-blanco-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 1484
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Avignon_Pin_Blanco_B1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php"
+      ],
+      "file": "originales/Avignon_Pin_Blanco_B1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "avignon-pin-blanco-b1",
+      "web": {
+        "grande": {
+          "file": "web/avignon-pin-blanco-b1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 4308
+        },
+        "miniatura": {
+          "file": "web/avignon-pin-blanco-b1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 1570
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Burdeos_Mad_Nogal_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php",
+        "https://www.marroncelli.com/puertas-de-interior-burdeos.php"
+      ],
+      "file": "originales/Burdeos_Mad_Nogal_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "burdeos-mad-nogal-a1",
+      "web": {
+        "grande": {
+          "file": "web/burdeos-mad-nogal-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 14494
+        },
+        "miniatura": {
+          "file": "web/burdeos-mad-nogal-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 4002
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Burdeos_Mad_Nogal_B1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php"
+      ],
+      "file": "originales/Burdeos_Mad_Nogal_B1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "burdeos-mad-nogal-b1",
+      "web": {
+        "grande": {
+          "file": "web/burdeos-mad-nogal-b1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 16730
+        },
+        "miniatura": {
+          "file": "web/burdeos-mad-nogal-b1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 4412
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Placa_En_Nogal-Rayado_A2.png",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php",
+        "https://www.marroncelli.com/puertas-de-interior-enchapada.php"
+      ],
+      "file": "originales/Placa_En_Nogal-Rayado_A2.png",
+      "width": 600,
+      "height": 600,
+      "mode": "RGBA",
+      "transparent": true,
+      "id": "placa-en-nogal-rayado-a2",
+      "web": {
+        "grande": {
+          "file": "web/placa-en-nogal-rayado-a2-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 105222
+        },
+        "miniatura": {
+          "file": "web/placa-en-nogal-rayado-a2-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 31998
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Placa_En_Nogal-Rayado_B2.png",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php"
+      ],
+      "file": "originales/Placa_En_Nogal-Rayado_B2.png",
+      "width": 600,
+      "height": 600,
+      "mode": "RGBA",
+      "transparent": true,
+      "id": "placa-en-nogal-rayado-b2",
+      "web": {
+        "grande": {
+          "file": "web/placa-en-nogal-rayado-b2-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 103484
+        },
+        "miniatura": {
+          "file": "web/placa-en-nogal-rayado-b2-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 31532
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Placa_En_Roble-Eslavonia_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php",
+        "https://www.marroncelli.com/puertas-de-interior-enchapada.php"
+      ],
+      "file": "originales/Placa_En_Roble-Eslavonia_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "placa-en-roble-eslavonia-a1",
+      "web": {
+        "grande": {
+          "file": "web/placa-en-roble-eslavonia-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 13074
+        },
+        "miniatura": {
+          "file": "web/placa-en-roble-eslavonia-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 3372
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Placa_En_Roble-Eslavonia_B1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php"
+      ],
+      "file": "originales/Placa_En_Roble-Eslavonia_B1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "placa-en-roble-eslavonia-b1",
+      "web": {
+        "grande": {
+          "file": "web/placa-en-roble-eslavonia-b1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 14948
+        },
+        "miniatura": {
+          "file": "web/placa-en-roble-eslavonia-b1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 3802
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Placa_Pin_Blanco_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php",
+        "https://www.marroncelli.com/puertas-de-interior-pintada.php"
+      ],
+      "file": "originales/Placa_Pin_Blanco_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "placa-pin-blanco-a1",
+      "web": {
+        "grande": {
+          "file": "web/placa-pin-blanco-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 3698
+        },
+        "miniatura": {
+          "file": "web/placa-pin-blanco-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 1458
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Placa_Pin_Blanco_B1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php"
+      ],
+      "file": "originales/Placa_Pin_Blanco_B1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "placa-pin-blanco-b1",
+      "web": {
+        "grande": {
+          "file": "web/placa-pin-blanco-b1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 3730
+        },
+        "miniatura": {
+          "file": "web/placa-pin-blanco-b1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 1348
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Sardegna_Mad_Nogal_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php",
+        "https://www.marroncelli.com/puertas-de-interior-sardegna.php"
+      ],
+      "file": "originales/Sardegna_Mad_Nogal_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "sardegna-mad-nogal-a1",
+      "web": {
+        "grande": {
+          "file": "web/sardegna-mad-nogal-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 14862
+        },
+        "miniatura": {
+          "file": "web/sardegna-mad-nogal-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 4066
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Sardegna_Mad_Nogal_B1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php"
+      ],
+      "file": "originales/Sardegna_Mad_Nogal_B1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "sardegna-mad-nogal-b1",
+      "web": {
+        "grande": {
+          "file": "web/sardegna-mad-nogal-b1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 16298
+        },
+        "miniatura": {
+          "file": "web/sardegna-mad-nogal-b1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 4402
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Toscana_En_Nogal-Rayado_A2.png",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php",
+        "https://www.marroncelli.com/puertas-de-interior-toscana.php"
+      ],
+      "file": "originales/Toscana_En_Nogal-Rayado_A2.png",
+      "width": 600,
+      "height": 600,
+      "mode": "RGBA",
+      "transparent": true,
+      "id": "toscana-en-nogal-rayado-a2",
+      "web": {
+        "grande": {
+          "file": "web/toscana-en-nogal-rayado-a2-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 108116
+        },
+        "miniatura": {
+          "file": "web/toscana-en-nogal-rayado-a2-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 32736
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Toscana_En_Nogal-Rayado_B2.png",
+      "sources": [
+        "https://www.marroncelli.com/estilo-de-puertas.php"
+      ],
+      "file": "originales/Toscana_En_Nogal-Rayado_B2.png",
+      "width": 600,
+      "height": 600,
+      "mode": "RGBA",
+      "transparent": true,
+      "id": "toscana-en-nogal-rayado-b2",
+      "web": {
+        "grande": {
+          "file": "web/toscana-en-nogal-rayado-b2-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 105284
+        },
+        "miniatura": {
+          "file": "web/toscana-en-nogal-rayado-b2-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 31810
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Aldeana_En_Roble-Eslavonia_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-aldeana.php"
+      ],
+      "file": "originales/Aldeana_En_Roble-Eslavonia_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "aldeana-en-roble-eslavonia-a1",
+      "web": {
+        "grande": {
+          "file": "web/aldeana-en-roble-eslavonia-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 13852
+        },
+        "miniatura": {
+          "file": "web/aldeana-en-roble-eslavonia-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 3716
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Aldeana_En_Roble-Floreado_A1.png",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-aldeana.php"
+      ],
+      "file": "originales/Aldeana_En_Roble-Floreado_A1.png",
+      "width": 600,
+      "height": 600,
+      "mode": "RGBA",
+      "transparent": false,
+      "id": "aldeana-en-roble-floreado-a1",
+      "web": {
+        "grande": {
+          "file": "web/aldeana-en-roble-floreado-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 10504
+        },
+        "miniatura": {
+          "file": "web/aldeana-en-roble-floreado-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 3408
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Aldeana_Pin_Blanco_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-aldeana.php"
+      ],
+      "file": "originales/Aldeana_Pin_Blanco_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "aldeana-pin-blanco-a1",
+      "web": {
+        "grande": {
+          "file": "web/aldeana-pin-blanco-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 3990
+        },
+        "miniatura": {
+          "file": "web/aldeana-pin-blanco-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 1508
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/info-fichas/Blanco.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-aldeana.php",
+        "https://www.marroncelli.com/puertas-de-interior-avignon.php",
+        "https://www.marroncelli.com/puertas-de-interior-burdeos.php",
+        "https://www.marroncelli.com/puertas-de-interior-pintada.php",
+        "https://www.marroncelli.com/puertas-de-interior-sardegna.php"
+      ],
+      "file": "originales/Blanco.jpg",
+      "width": 50,
+      "height": 50,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "blanco",
+      "web": {
+        "grande": {
+          "file": "web/blanco-grande.webp",
+          "width": 50,
+          "height": 50,
+          "bytes": 64
+        },
+        "miniatura": {
+          "file": "web/blanco-miniatura.webp",
+          "width": 50,
+          "height": 50,
+          "bytes": 64
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/info-fichas/Enchapada-Nogal-Rayado.png",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-aldeana.php",
+        "https://www.marroncelli.com/puertas-de-interior-enchapada.php",
+        "https://www.marroncelli.com/puertas-de-interior-toscana.php"
+      ],
+      "file": "originales/Enchapada-Nogal-Rayado.png",
+      "width": 590,
+      "height": 590,
+      "mode": "RGBA",
+      "transparent": false,
+      "id": "enchapada-nogal-rayado",
+      "web": {
+        "grande": {
+          "file": "web/enchapada-nogal-rayado-grande.webp",
+          "width": 590,
+          "height": 590,
+          "bytes": 111806
+        },
+        "miniatura": {
+          "file": "web/enchapada-nogal-rayado-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 33310
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/info-fichas/Enchapado-De-Madera-Roble-Eslavonia.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-aldeana.php",
+        "https://www.marroncelli.com/puertas-de-interior-enchapada.php"
+      ],
+      "file": "originales/Enchapado-De-Madera-Roble-Eslavonia.jpg",
+      "width": 590,
+      "height": 590,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "enchapado-de-madera-roble-eslavonia",
+      "web": {
+        "grande": {
+          "file": "web/enchapado-de-madera-roble-eslavonia-grande.webp",
+          "width": 590,
+          "height": 590,
+          "bytes": 93260
+        },
+        "miniatura": {
+          "file": "web/enchapado-de-madera-roble-eslavonia-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 34428
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/info-fichas/Enchapado-De-Madera-Roble-Floreado.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-aldeana.php",
+        "https://www.marroncelli.com/puertas-de-interior-enchapada.php"
+      ],
+      "file": "originales/Enchapado-De-Madera-Roble-Floreado.jpg",
+      "width": 590,
+      "height": 590,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "enchapado-de-madera-roble-floreado",
+      "web": {
+        "grande": {
+          "file": "web/enchapado-de-madera-roble-floreado-grande.webp",
+          "width": 590,
+          "height": 590,
+          "bytes": 96340
+        },
+        "miniatura": {
+          "file": "web/enchapado-de-madera-roble-floreado-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 36150
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Avignon_Mad_Cedro_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-avignon.php"
+      ],
+      "file": "originales/Avignon_Mad_Cedro_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "avignon-mad-cedro-a1",
+      "web": {
+        "grande": {
+          "file": "web/avignon-mad-cedro-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 17370
+        },
+        "miniatura": {
+          "file": "web/avignon-mad-cedro-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 4794
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Avignon_Mad_Nogal_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-avignon.php"
+      ],
+      "file": "originales/Avignon_Mad_Nogal_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "avignon-mad-nogal-a1",
+      "web": {
+        "grande": {
+          "file": "web/avignon-mad-nogal-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 14260
+        },
+        "miniatura": {
+          "file": "web/avignon-mad-nogal-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 4036
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/info-fichas/Madera-Maciza-Cedro.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-avignon.php",
+        "https://www.marroncelli.com/puertas-de-interior-burdeos.php",
+        "https://www.marroncelli.com/puertas-de-interior-sardegna.php"
+      ],
+      "file": "originales/Madera-Maciza-Cedro.jpg",
+      "width": 590,
+      "height": 590,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "madera-maciza-cedro",
+      "web": {
+        "grande": {
+          "file": "web/madera-maciza-cedro-grande.webp",
+          "width": 590,
+          "height": 590,
+          "bytes": 58202
+        },
+        "miniatura": {
+          "file": "web/madera-maciza-cedro-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 22516
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/info-fichas/Madera-Maciza-Nogal.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-avignon.php",
+        "https://www.marroncelli.com/puertas-de-interior-burdeos.php",
+        "https://www.marroncelli.com/puertas-de-interior-sardegna.php"
+      ],
+      "file": "originales/Madera-Maciza-Nogal.jpg",
+      "width": 590,
+      "height": 590,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "madera-maciza-nogal",
+      "web": {
+        "grande": {
+          "file": "web/madera-maciza-nogal-grande.webp",
+          "width": 590,
+          "height": 590,
+          "bytes": 39478
+        },
+        "miniatura": {
+          "file": "web/madera-maciza-nogal-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 15602
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Burdeos_Pin_Blanco_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-burdeos.php"
+      ],
+      "file": "originales/Burdeos_Pin_Blanco_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "burdeos-pin-blanco-a1",
+      "web": {
+        "grande": {
+          "file": "web/burdeos-pin-blanco-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 4170
+        },
+        "miniatura": {
+          "file": "web/burdeos-pin-blanco-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 1524
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Placa_En_Roble-Floreado_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-enchapada.php"
+      ],
+      "file": "originales/Placa_En_Roble-Floreado_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "placa-en-roble-floreado-a1",
+      "web": {
+        "grande": {
+          "file": "web/placa-en-roble-floreado-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 11672
+        },
+        "miniatura": {
+          "file": "web/placa-en-roble-floreado-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 3484
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Placa_Fol_Blanco_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-foliada.php"
+      ],
+      "file": "originales/Placa_Fol_Blanco_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "placa-fol-blanco-a1",
+      "web": {
+        "grande": {
+          "file": "web/placa-fol-blanco-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 3954
+        },
+        "miniatura": {
+          "file": "web/placa-fol-blanco-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 1506
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Placa_Fol_Nogal_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-foliada.php"
+      ],
+      "file": "originales/Placa_Fol_Nogal_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "placa-fol-nogal-a1",
+      "web": {
+        "grande": {
+          "file": "web/placa-fol-nogal-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 17180
+        },
+        "miniatura": {
+          "file": "web/placa-fol-nogal-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 4502
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Placa_Fol_Roble_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-foliada.php"
+      ],
+      "file": "originales/Placa_Fol_Roble_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "placa-fol-roble-a1",
+      "web": {
+        "grande": {
+          "file": "web/placa-fol-roble-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 15950
+        },
+        "miniatura": {
+          "file": "web/placa-fol-roble-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 3786
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/info-fichas/Foliados-Blanco.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-foliada.php"
+      ],
+      "file": "originales/Foliados-Blanco.jpg",
+      "width": 590,
+      "height": 590,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "foliados-blanco",
+      "web": {
+        "grande": {
+          "file": "web/foliados-blanco-grande.webp",
+          "width": 590,
+          "height": 590,
+          "bytes": 692
+        },
+        "miniatura": {
+          "file": "web/foliados-blanco-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 252
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/info-fichas/Foliados-Nogal.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-foliada.php"
+      ],
+      "file": "originales/Foliados-Nogal.jpg",
+      "width": 590,
+      "height": 590,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "foliados-nogal",
+      "web": {
+        "grande": {
+          "file": "web/foliados-nogal-grande.webp",
+          "width": 590,
+          "height": 590,
+          "bytes": 115252
+        },
+        "miniatura": {
+          "file": "web/foliados-nogal-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 40374
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/info-fichas/Foliados-Roble.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-foliada.php"
+      ],
+      "file": "originales/Foliados-Roble.jpg",
+      "width": 590,
+      "height": 590,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "foliados-roble",
+      "web": {
+        "grande": {
+          "file": "web/foliados-roble-grande.webp",
+          "width": 590,
+          "height": 590,
+          "bytes": 108206
+        },
+        "miniatura": {
+          "file": "web/foliados-roble-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 38476
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Sardegna_Mad_Cedro_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-sardegna.php"
+      ],
+      "file": "originales/Sardegna_Mad_Cedro_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "sardegna-mad-cedro-a1",
+      "web": {
+        "grande": {
+          "file": "web/sardegna-mad-cedro-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 18482
+        },
+        "miniatura": {
+          "file": "web/sardegna-mad-cedro-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 4854
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Sardegna_Pin_Blanco_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-sardegna.php"
+      ],
+      "file": "originales/Sardegna_Pin_Blanco_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "sardegna-pin-blanco-a1",
+      "web": {
+        "grande": {
+          "file": "web/sardegna-pin-blanco-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 4346
+        },
+        "miniatura": {
+          "file": "web/sardegna-pin-blanco-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 1672
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Toscana_En_Roble-Eslavonia_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-toscana.php"
+      ],
+      "file": "originales/Toscana_En_Roble-Eslavonia_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "toscana-en-roble-eslavonia-a1",
+      "web": {
+        "grande": {
+          "file": "web/toscana-en-roble-eslavonia-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 14378
+        },
+        "miniatura": {
+          "file": "web/toscana-en-roble-eslavonia-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 3614
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Toscana_En_Roble-Floreado_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-toscana.php"
+      ],
+      "file": "originales/Toscana_En_Roble-Floreado_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "toscana-en-roble-floreado-a1",
+      "web": {
+        "grande": {
+          "file": "web/toscana-en-roble-floreado-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 12398
+        },
+        "miniatura": {
+          "file": "web/toscana-en-roble-floreado-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 3636
+        }
+      }
+    },
+    {
+      "url": "https://www.marroncelli.com/images/estilo-de-puertas/Toscana_Pin_Blanco_A1.jpg",
+      "sources": [
+        "https://www.marroncelli.com/puertas-de-interior-toscana.php"
+      ],
+      "file": "originales/Toscana_Pin_Blanco_A1.jpg",
+      "width": 600,
+      "height": 600,
+      "mode": "RGB",
+      "transparent": false,
+      "id": "toscana-pin-blanco-a1",
+      "web": {
+        "grande": {
+          "file": "web/toscana-pin-blanco-a1-grande.webp",
+          "width": 600,
+          "height": 600,
+          "bytes": 3766
+        },
+        "miniatura": {
+          "file": "web/toscana-pin-blanco-a1-miniatura.webp",
+          "width": 320,
+          "height": 320,
+          "bytes": 1438
+        }
+      }
+    }
+  ],
+  "frames": [
+    {
+      "file": "marcos/marco-buna-filo-interior.png",
+      "source": "assets/pdf/marco-buna-filo-interior.pdf",
+      "page": 1,
+      "label": "marco-buna-filo-interior",
+      "width": 1008,
+      "height": 1261,
+      "mode": "RGBA",
+      "extraction": "embedded image; no retouching",
+      "web": {
+        "grande": {
+          "file": "web/marco-buna-filo-interior-grande.webp",
+          "width": 1008,
+          "height": 1261,
+          "bytes": 428214
+        },
+        "miniatura": {
+          "file": "web/marco-buna-filo-interior-miniatura.webp",
+          "width": 400,
+          "height": 500,
+          "bytes": 92512
+        }
+      },
+      "transparent": true
+    },
+    {
+      "file": "marcos/filo-muro.png",
+      "source": "assets/pdf/filo-muro.pdf",
+      "page": 1,
+      "label": "filo-muro",
+      "width": 958,
+      "height": 1196,
+      "mode": "RGBA",
+      "extraction": "embedded image; no retouching",
+      "web": {
+        "grande": {
+          "file": "web/filo-muro-grande.webp",
+          "width": 958,
+          "height": 1196,
+          "bytes": 405580
+        },
+        "miniatura": {
+          "file": "web/filo-muro-miniatura.webp",
+          "width": 401,
+          "height": 500,
+          "bytes": 121982
+        }
+      },
+      "transparent": true
+    },
+    {
+      "file": "marcos/marco-buna-filo-exterior.png",
+      "source": "assets/pdf/marco-buna-filo-exterior.pdf",
+      "page": 1,
+      "label": "marco-buna-filo-exterior",
+      "width": 1008,
+      "height": 1261,
+      "mode": "RGBA",
+      "extraction": "embedded image; no retouching",
+      "web": {
+        "grande": {
+          "file": "web/marco-buna-filo-exterior-grande.webp",
+          "width": 1008,
+          "height": 1261,
+          "bytes": 407968
+        },
+        "miniatura": {
+          "file": "web/marco-buna-filo-exterior-miniatura.webp",
+          "width": 400,
+          "height": 500,
+          "bytes": 83956
+        }
+      },
+      "transparent": true
+    },
+    {
+      "file": "marcos/marco-y-contramarco.png",
+      "source": "assets/pdf/marco-y-contramarco.pdf",
+      "page": 1,
+      "label": "marco-y-contramarco",
+      "width": 931,
+      "height": 1164,
+      "mode": "RGBA",
+      "extraction": "embedded image; no retouching",
+      "web": {
+        "grande": {
+          "file": "web/marco-y-contramarco-grande.webp",
+          "width": 931,
+          "height": 1164,
+          "bytes": 322662
+        },
+        "miniatura": {
+          "file": "web/marco-y-contramarco-miniatura.webp",
+          "width": 400,
+          "height": 500,
+          "bytes": 91596
+        }
+      },
+      "transparent": true
+    }
+  ],
+  "excluded": [
+    {
+      "file": "originales/Burdeos_Mad_Cedro_A1.png",
+      "reason": "Contradicción entre sitio previo y PDF vigente; no usar en la web nueva."
+    }
+  ]
+}

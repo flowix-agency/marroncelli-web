@@ -1,0 +1,1840 @@
+{
+  "version": 1,
+  "fecha": "2026-09-21",
+  "alcance": "Datos de las ocho entradas del catálogo. PDF locales vigentes; web solamente para productos sin PDF local.",
+  "criterios": [
+    "Cada hecho contiene fuente; los IDs se resuelven en fuentes.",
+    "null o [] significa no confirmado en las fuentes revisadas, no indisponibilidad del producto.",
+    "No aplicar las medidas de un sistema a todos los productos.",
+    "Los valores derivados de tablas de paso/libre son diferencias aritméticas de la tabla, no medidas de hoja.",
+    "Las descripciones son paráfrasis prudentes, no transcripciones de marketing."
+  ],
+  "fuentes": {
+    "placa": {
+      "tipo": "pdf_local",
+      "titulo": "Puerta Placa",
+      "ruta": "assets/pdf/puerta-placa.pdf",
+      "paginas_revisadas": [
+        1,
+        2
+      ],
+      "prioridad": "vigente_por_confirmacion_del_usuario"
+    },
+    "aldeana": {
+      "tipo": "pdf_local",
+      "titulo": "Puerta Aldeana",
+      "ruta": "assets/pdf/puerta-aldeana.pdf",
+      "paginas_revisadas": [
+        1,
+        2
+      ],
+      "prioridad": "vigente_por_confirmacion_del_usuario"
+    },
+    "burdeos": {
+      "tipo": "pdf_local",
+      "titulo": "Puerta Burdeos",
+      "ruta": "assets/pdf/puerta-burdeos.pdf",
+      "paginas_revisadas": [
+        1,
+        2
+      ],
+      "prioridad": "vigente_por_confirmacion_del_usuario"
+    },
+    "marco_interior": {
+      "tipo": "pdf_local",
+      "titulo": "Marco Buña Filo Interior",
+      "ruta": "assets/pdf/marco-buna-filo-interior.pdf",
+      "paginas_revisadas": [
+        1,
+        2
+      ],
+      "prioridad": "vigente_por_confirmacion_del_usuario"
+    },
+    "marco_filomuro": {
+      "tipo": "pdf_local",
+      "titulo": "Filo Muro",
+      "ruta": "assets/pdf/filo-muro.pdf",
+      "paginas_revisadas": [
+        1,
+        2
+      ],
+      "prioridad": "vigente_por_confirmacion_del_usuario"
+    },
+    "marco_exterior": {
+      "tipo": "pdf_local",
+      "titulo": "Marco Buña Filo Exterior",
+      "ruta": "assets/pdf/marco-buna-filo-exterior.pdf",
+      "paginas_revisadas": [
+        1,
+        2
+      ],
+      "prioridad": "vigente_por_confirmacion_del_usuario"
+    },
+    "marco_contramarco": {
+      "tipo": "pdf_local",
+      "titulo": "Marco y Contramarco",
+      "ruta": "assets/pdf/marco-y-contramarco.pdf",
+      "paginas_revisadas": [
+        1,
+        2
+      ],
+      "prioridad": "vigente_por_confirmacion_del_usuario"
+    },
+    "foliada": {
+      "tipo": "web_oficial",
+      "titulo": "Puerta placa foliada",
+      "url": "https://www.marroncelli.com/puertas-de-interior-foliada.php",
+      "prioridad": "complementaria_solo_linea_sin_pdf",
+      "fecha_consulta": "2026-09-21"
+    },
+    "toscana": {
+      "tipo": "web_oficial",
+      "titulo": "Toscana",
+      "url": "https://www.marroncelli.com/puertas-de-interior-toscana.php",
+      "prioridad": "complementaria_solo_linea_sin_pdf",
+      "fecha_consulta": "2026-09-21"
+    },
+    "sardegna": {
+      "tipo": "web_oficial",
+      "titulo": "Sardegna",
+      "url": "https://www.marroncelli.com/puertas-de-interior-sardegna.php",
+      "prioridad": "complementaria_solo_linea_sin_pdf",
+      "fecha_consulta": "2026-09-21"
+    },
+    "avignon": {
+      "tipo": "web_oficial",
+      "titulo": "Avignon",
+      "url": "https://www.marroncelli.com/puertas-de-interior-avignon.php",
+      "prioridad": "complementaria_solo_linea_sin_pdf",
+      "fecha_consulta": "2026-09-21"
+    },
+    "catalogo": {
+      "tipo": "web_oficial",
+      "titulo": "Estilo de puertas",
+      "url": "https://www.marroncelli.com/estilo-de-puertas.php",
+      "fecha_consulta": "2026-09-21"
+    }
+  },
+  "productos": [
+    {
+      "id": "placa-pintada",
+      "nombre": {
+        "valor": "Placa pintada",
+        "fuente": "catalogo",
+        "apartado": "Listado de líneas"
+      },
+      "descripcion": {
+        "valor": "Puerta de superficies lisas y terminación pintada en blanco.",
+        "fuente": "placa",
+        "pagina": 2,
+        "apartado": "Pintado y representación de producto"
+      },
+      "materiales_acabados": [
+        {
+          "valor": {
+            "tipo": "Pintado",
+            "colores": [
+              "Blanco"
+            ],
+            "acabado": "Lacas al agua"
+          },
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Pintado"
+        },
+        {
+          "valor": "Proceso en cabinas de pintura presurizadas y calefaccionadas",
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Pintado"
+        }
+      ],
+      "configuraciones": {
+        "valor": [
+          "Simple",
+          "Doble",
+          "Simple con paño superior fijo",
+          "Corrediza simple",
+          "Corrediza doble",
+          "Puerta y media"
+        ],
+        "fuente": "placa",
+        "pagina": 2,
+        "apartado": "Configuraciones"
+      },
+      "composicion": [
+        {
+          "valor": "Bastidor perimetral de pino finger",
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        },
+        {
+          "valor": "Núcleo de poliestireno expandido (telgopor)",
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        },
+        {
+          "valor": "Caras de MDF de 9 mm preparadas para enchapado o laqueado",
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        },
+        {
+          "valor": "Espesor de hoja de 44 o 58 mm según sistema de marco; el PDF no da una matriz modelo-sistema",
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        }
+      ],
+      "modelos": [],
+      "marcos_compatibles": {
+        "valor": null,
+        "fuente": "placa",
+        "pagina": 2,
+        "nota": "La ficha de producto no identifica por nombre qué sistemas son compatibles. Los 4 PDF de marcos son recursos independientes. No inferir compatibilidad completa a partir del espesor ni de fotografías."
+      },
+      "medidas_publicables": [],
+      "pdf_local": "assets/pdf/puerta-placa.pdf",
+      "notas": [
+        {
+          "nota": "El PDF no publica una altura máxima específica para la versión pintada. No reutilizar los máximos de las variantes enchapadas.",
+          "fuente": "placa",
+          "pagina": 2
+        }
+      ],
+      "descargas_de_producto": [
+        {
+          "titulo": "Ficha de Puerta Placa: enchapada y pintada",
+          "ruta": "assets/pdf/puerta-placa.pdf",
+          "relacion": "Ficha vigente de esta familia de producto",
+          "fuente": "placa"
+        }
+      ],
+      "recursos_generales_separados": [
+        {
+          "titulo": "Marco buña filo interior",
+          "ruta": "assets/pdf/marco-buna-filo-interior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_interior"
+        },
+        {
+          "titulo": "Filo muro",
+          "ruta": "assets/pdf/filo-muro.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_filomuro"
+        },
+        {
+          "titulo": "Marco buña filo exterior",
+          "ruta": "assets/pdf/marco-buna-filo-exterior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_exterior"
+        },
+        {
+          "titulo": "Marco y contramarco",
+          "ruta": "assets/pdf/marco-y-contramarco.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_contramarco"
+        }
+      ]
+    },
+    {
+      "id": "placa-foliada",
+      "nombre": {
+        "valor": "Placa foliada",
+        "fuente": "foliada",
+        "apartado": "Título"
+      },
+      "descripcion": {
+        "valor": "Puerta placa con foliados en roble, nogal o blanco.",
+        "fuente": "foliada",
+        "apartado": "Maderas y acabados"
+      },
+      "materiales_acabados": [
+        {
+          "valor": {
+            "tipo": "Foliado",
+            "terminaciones": [
+              "Roble",
+              "Nogal",
+              "Blanco"
+            ]
+          },
+          "fuente": "foliada",
+          "apartado": "Maderas y acabados"
+        }
+      ],
+      "configuraciones": {
+        "valor": [
+          "Simple",
+          "Doble",
+          "Simple con paño superior fijo",
+          "Corrediza simple",
+          "Corrediza doble",
+          "Puerta y media"
+        ],
+        "fuente": "foliada",
+        "apartado": "Configuraciones"
+      },
+      "composicion": [],
+      "modelos": [],
+      "marcos_compatibles": {
+        "valor": [
+          "Sin premarco",
+          "Con premarco",
+          "Con buña",
+          "Filomuro",
+          "Invisible"
+        ],
+        "fuente": "foliada",
+        "apartado": "Marco"
+      },
+      "medidas_publicables": [],
+      "medidas_web_no_trasladar": {
+        "valor": {
+          "altos_puerta_mm": [
+            2018,
+            2218,
+            2418,
+            2618
+          ],
+          "anchos_puerta_mm": [
+            624,
+            724,
+            824,
+            924
+          ]
+        },
+        "fuente": "foliada",
+        "apartado": "Medidas"
+      },
+      "pdf_local": null,
+      "notas": [
+        {
+          "nota": "No existe PDF local específico de foliada. El PDF Placa describe terminación enchapada o laqueada; no demuestra que el núcleo, MDF o espesores se apliquen al foliado.",
+          "fuente": "placa",
+          "pagina": 2
+        },
+        {
+          "nota": "Los textos visibles identifican corredizas; algunos atributos alternativos de las imágenes dicen pivotante. Usar las etiquetas visibles, no publicar pivotantes como una configuración adicional.",
+          "fuente": "foliada",
+          "apartado": "Configuraciones"
+        },
+        {
+          "nota": "La página enumera buña sin distinguir filo interior/exterior; no presentar ambas variantes como compatibilidad comprobada.",
+          "fuente": "foliada",
+          "apartado": "Marco"
+        },
+        {
+          "nota": "No hay PDF local del sistema Invisible.",
+          "fuente": "foliada",
+          "apartado": "Marco"
+        }
+      ],
+      "descargas_de_producto": [],
+      "recursos_generales_separados": [
+        {
+          "titulo": "Marco buña filo interior",
+          "ruta": "assets/pdf/marco-buna-filo-interior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_interior"
+        },
+        {
+          "titulo": "Filo muro",
+          "ruta": "assets/pdf/filo-muro.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_filomuro"
+        },
+        {
+          "titulo": "Marco buña filo exterior",
+          "ruta": "assets/pdf/marco-buna-filo-exterior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_exterior"
+        },
+        {
+          "titulo": "Marco y contramarco",
+          "ruta": "assets/pdf/marco-y-contramarco.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_contramarco"
+        }
+      ]
+    },
+    {
+      "id": "placa-enchapada",
+      "nombre": {
+        "valor": "Placa enchapada",
+        "fuente": "catalogo",
+        "apartado": "Listado de líneas"
+      },
+      "descripcion": {
+        "valor": "Puerta de superficies lisas con enchapados de madera natural o reconstituida.",
+        "fuente": "placa",
+        "pagina": 2,
+        "apartado": "Enchapados y representación de producto"
+      },
+      "materiales_acabados": [
+        {
+          "valor": {
+            "tipo": "Madera reconstituida",
+            "terminaciones": [
+              "Nogal floreado",
+              "Nogal rayado",
+              "Roble floreado",
+              "Roble rayado",
+              "Ébano",
+              "Gris decape"
+            ],
+            "altura_maxima_hoja_mm": 2750
+          },
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Enchapados de madera reconstituida"
+        },
+        {
+          "valor": {
+            "tipo": "Madera natural",
+            "terminaciones": [
+              "Nogal floreado",
+              "Roble floreado",
+              "Roble rayado"
+            ],
+            "altura_maxima_hoja_mm": 2900
+          },
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Enchapados de madera natural"
+        },
+        {
+          "valor": "Terminación en base acuosa que conserva la apariencia natural de la madera",
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Enchapados de madera"
+        }
+      ],
+      "configuraciones": {
+        "valor": [
+          "Simple",
+          "Doble",
+          "Simple con paño superior fijo",
+          "Corrediza simple",
+          "Corrediza doble",
+          "Puerta y media"
+        ],
+        "fuente": "placa",
+        "pagina": 2,
+        "apartado": "Configuraciones"
+      },
+      "composicion": [
+        {
+          "valor": "Bastidor perimetral de pino finger",
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        },
+        {
+          "valor": "Núcleo de poliestireno expandido (telgopor)",
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        },
+        {
+          "valor": "Caras de MDF de 9 mm preparadas para enchapado o laqueado",
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        },
+        {
+          "valor": "Espesor de hoja de 44 o 58 mm según sistema de marco; el PDF no da una matriz modelo-sistema",
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        }
+      ],
+      "modelos": [],
+      "marcos_compatibles": {
+        "valor": null,
+        "fuente": "placa",
+        "pagina": 2,
+        "nota": "La ficha de producto no identifica por nombre qué sistemas son compatibles. Los 4 PDF de marcos son recursos independientes. No inferir compatibilidad completa a partir del espesor ni de fotografías."
+      },
+      "medidas_publicables": [
+        {
+          "valor": {
+            "concepto": "Alto máximo de hoja",
+            "valor_mm": 2750,
+            "solo_para": "Enchapados de madera reconstituida"
+          },
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Enchapados de madera reconstituida"
+        },
+        {
+          "valor": {
+            "concepto": "Alto máximo de hoja",
+            "valor_mm": 2900,
+            "solo_para": "Enchapados de madera natural"
+          },
+          "fuente": "placa",
+          "pagina": 2,
+          "apartado": "Enchapados de madera natural"
+        }
+      ],
+      "pdf_local": "assets/pdf/puerta-placa.pdf",
+      "notas": [
+        {
+          "nota": "Las ilustraciones de Ébano y Gris decape en el PDF se ven doradas, similares a los robles. Los nombres están explícitos; no tomar esos renders como muestras cromáticas fiables.",
+          "fuente": "placa",
+          "pagina": 2
+        }
+      ],
+      "descargas_de_producto": [
+        {
+          "titulo": "Ficha de Puerta Placa: enchapada y pintada",
+          "ruta": "assets/pdf/puerta-placa.pdf",
+          "relacion": "Ficha vigente de esta familia de producto",
+          "fuente": "placa"
+        }
+      ],
+      "recursos_generales_separados": [
+        {
+          "titulo": "Marco buña filo interior",
+          "ruta": "assets/pdf/marco-buna-filo-interior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_interior"
+        },
+        {
+          "titulo": "Filo muro",
+          "ruta": "assets/pdf/filo-muro.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_filomuro"
+        },
+        {
+          "titulo": "Marco buña filo exterior",
+          "ruta": "assets/pdf/marco-buna-filo-exterior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_exterior"
+        },
+        {
+          "titulo": "Marco y contramarco",
+          "ruta": "assets/pdf/marco-y-contramarco.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_contramarco"
+        }
+      ]
+    },
+    {
+      "id": "aldeana",
+      "nombre": {
+        "valor": "Aldeana",
+        "fuente": "aldeana",
+        "pagina": 2,
+        "apartado": "Título"
+      },
+      "descripcion": {
+        "valor": "Diseño de tableros con perfil ligero, enchapados de madera y opción pintada en blanco.",
+        "fuente": "aldeana",
+        "pagina": 2,
+        "apartado": "Composición, enchapados y pintado"
+      },
+      "materiales_acabados": [
+        {
+          "valor": {
+            "tipo": "Madera reconstituida",
+            "terminaciones": [
+              "Nogal floreado",
+              "Nogal rayado",
+              "Roble floreado",
+              "Roble rayado",
+              "Ébano",
+              "Gris decape"
+            ],
+            "altura_maxima_hoja_mm": 2750
+          },
+          "fuente": "aldeana",
+          "pagina": 2,
+          "apartado": "Enchapados de madera reconstituida"
+        },
+        {
+          "valor": {
+            "tipo": "Madera natural",
+            "terminaciones": [
+              "Nogal floreado",
+              "Roble floreado",
+              "Roble rayado"
+            ],
+            "altura_maxima_hoja_mm": 2900
+          },
+          "fuente": "aldeana",
+          "pagina": 2,
+          "apartado": "Enchapados de madera natural"
+        },
+        {
+          "valor": "Terminación en base acuosa que conserva la apariencia natural de la madera",
+          "fuente": "aldeana",
+          "pagina": 2,
+          "apartado": "Enchapados de madera"
+        },
+        {
+          "valor": {
+            "tipo": "Pintado",
+            "colores": [
+              "Blanco"
+            ],
+            "acabado": "Lacas al agua"
+          },
+          "fuente": "aldeana",
+          "pagina": 2,
+          "apartado": "Pintado"
+        },
+        {
+          "valor": "Proceso en cabinas de pintura presurizadas y calefaccionadas",
+          "fuente": "aldeana",
+          "pagina": 2,
+          "apartado": "Pintado"
+        }
+      ],
+      "configuraciones": {
+        "valor": [
+          "Simple",
+          "Doble",
+          "Simple con paño superior fijo",
+          "Corrediza simple",
+          "Corrediza doble",
+          "Puerta y media"
+        ],
+        "fuente": "aldeana",
+        "pagina": 2,
+        "apartado": "Configuraciones"
+      },
+      "composicion": [
+        {
+          "valor": "Parantes de 44 × 124 mm",
+          "fuente": "aldeana",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        },
+        {
+          "valor": "Zócalo de 44 × 219 mm",
+          "fuente": "aldeana",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        },
+        {
+          "valor": "Tablero central de 18 mm",
+          "fuente": "aldeana",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        }
+      ],
+      "modelos": [
+        {
+          "valor": "Tableros de madera",
+          "fuente": "aldeana",
+          "pagina": 2,
+          "apartado": "Modelos"
+        },
+        {
+          "valor": "Vidriado en el tablero superior",
+          "fuente": "aldeana",
+          "pagina": 2,
+          "apartado": "Modelos"
+        }
+      ],
+      "marcos_compatibles": {
+        "valor": null,
+        "fuente": "aldeana",
+        "pagina": 2,
+        "nota": "La ficha de producto no identifica por nombre qué sistemas son compatibles. Los 4 PDF de marcos son recursos independientes. No inferir compatibilidad completa a partir del espesor ni de fotografías."
+      },
+      "medidas_publicables": [
+        {
+          "valor": {
+            "concepto": "Alto máximo de hoja",
+            "valor_mm": 2750,
+            "solo_para": "Enchapados de madera reconstituida"
+          },
+          "fuente": "aldeana",
+          "pagina": 2,
+          "apartado": "Enchapados de madera reconstituida"
+        },
+        {
+          "valor": {
+            "concepto": "Alto máximo de hoja",
+            "valor_mm": 2900,
+            "solo_para": "Enchapados de madera natural"
+          },
+          "fuente": "aldeana",
+          "pagina": 2,
+          "apartado": "Enchapados de madera natural"
+        }
+      ],
+      "pdf_local": "assets/pdf/puerta-aldeana.pdf",
+      "notas": [
+        {
+          "nota": "No asignar el máximo de hoja enchapada a la opción pintada.",
+          "fuente": "aldeana",
+          "pagina": 2
+        }
+      ],
+      "descargas_de_producto": [
+        {
+          "titulo": "Ficha de Puerta Aldeana",
+          "ruta": "assets/pdf/puerta-aldeana.pdf",
+          "relacion": "Ficha vigente de esta familia de producto",
+          "fuente": "aldeana"
+        }
+      ],
+      "recursos_generales_separados": [
+        {
+          "titulo": "Marco buña filo interior",
+          "ruta": "assets/pdf/marco-buna-filo-interior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_interior"
+        },
+        {
+          "titulo": "Filo muro",
+          "ruta": "assets/pdf/filo-muro.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_filomuro"
+        },
+        {
+          "titulo": "Marco buña filo exterior",
+          "ruta": "assets/pdf/marco-buna-filo-exterior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_exterior"
+        },
+        {
+          "titulo": "Marco y contramarco",
+          "ruta": "assets/pdf/marco-y-contramarco.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_contramarco"
+        }
+      ]
+    },
+    {
+      "id": "toscana",
+      "nombre": {
+        "valor": "Toscana",
+        "fuente": "toscana",
+        "apartado": "Título"
+      },
+      "descripcion": {
+        "valor": "Puerta con opciones de tablero de madera o vidrio y cuatro acabados publicados.",
+        "fuente": "toscana",
+        "apartado": "Maderas y acabados / Modelos"
+      },
+      "materiales_acabados": [
+        {
+          "valor": [
+            "Roble de Eslavonia",
+            "Roble floreado",
+            "Nogal rayado",
+            "Blanco"
+          ],
+          "fuente": "toscana",
+          "apartado": "Maderas y acabados"
+        }
+      ],
+      "configuraciones": {
+        "valor": [
+          "Simple",
+          "Doble",
+          "Simple con paño superior fijo",
+          "Corrediza simple",
+          "Corrediza doble",
+          "Puerta y media"
+        ],
+        "fuente": "toscana",
+        "apartado": "Configuraciones"
+      },
+      "composicion": [],
+      "modelos": [
+        {
+          "valor": [
+            "Tablero de madera",
+            "Tablero de vidrio"
+          ],
+          "fuente": "toscana",
+          "apartado": "Modelos"
+        }
+      ],
+      "marcos_compatibles": {
+        "valor": [
+          "Sin premarco",
+          "Con premarco",
+          "Con buña"
+        ],
+        "fuente": "toscana",
+        "apartado": "Marco"
+      },
+      "medidas_publicables": [],
+      "medidas_web_no_trasladar": {
+        "valor": {
+          "altos_puerta_mm": [
+            2018,
+            2218,
+            2418,
+            2618
+          ],
+          "anchos_puerta_mm": [
+            624,
+            724,
+            824,
+            924
+          ]
+        },
+        "fuente": "toscana",
+        "apartado": "Medidas"
+      },
+      "pdf_local": null,
+      "notas": [
+        {
+          "nota": "La página no describe la composición interna ni permite confirmar si los acabados de madera son macizos o enchapados. No trasladar composición de otras líneas.",
+          "fuente": "toscana"
+        },
+        {
+          "nota": "El marco con buña no está desglosado en filo interior/exterior.",
+          "fuente": "toscana",
+          "apartado": "Marco"
+        },
+        {
+          "nota": "Etiquetas visibles de apertura dicen corrediza; alt de algunas imágenes dice pivotante. Priorizar texto visible.",
+          "fuente": "toscana",
+          "apartado": "Configuraciones"
+        }
+      ],
+      "descargas_de_producto": [],
+      "recursos_generales_separados": [
+        {
+          "titulo": "Marco buña filo interior",
+          "ruta": "assets/pdf/marco-buna-filo-interior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_interior"
+        },
+        {
+          "titulo": "Filo muro",
+          "ruta": "assets/pdf/filo-muro.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_filomuro"
+        },
+        {
+          "titulo": "Marco buña filo exterior",
+          "ruta": "assets/pdf/marco-buna-filo-exterior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_exterior"
+        },
+        {
+          "titulo": "Marco y contramarco",
+          "ruta": "assets/pdf/marco-y-contramarco.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_contramarco"
+        }
+      ]
+    },
+    {
+      "id": "sardegna",
+      "nombre": {
+        "valor": "Sardegna",
+        "fuente": "sardegna",
+        "apartado": "Título"
+      },
+      "descripcion": {
+        "valor": "Puerta de interior en nogal claro, nogal oscuro o pintado blanco.",
+        "fuente": "sardegna",
+        "apartado": "Maderas y acabados / Modelos"
+      },
+      "materiales_acabados": [
+        {
+          "valor": [
+            "Nogal oscuro",
+            "Nogal claro",
+            "Pintado blanco"
+          ],
+          "fuente": "sardegna",
+          "apartado": "Maderas y acabados"
+        }
+      ],
+      "configuraciones": {
+        "valor": [
+          "Simple",
+          "Doble",
+          "Simple con paño superior fijo",
+          "Corrediza simple",
+          "Corrediza doble"
+        ],
+        "fuente": "sardegna",
+        "apartado": "Configuraciones"
+      },
+      "composicion": [],
+      "modelos": [],
+      "marcos_compatibles": {
+        "valor": [
+          "Sin premarco",
+          "Con premarco",
+          "Con buña"
+        ],
+        "fuente": "sardegna",
+        "apartado": "Marco"
+      },
+      "medidas_publicables": [],
+      "medidas_web_no_trasladar": {
+        "valor": {
+          "altos_puerta_mm": [
+            2018,
+            2218,
+            2418,
+            2618
+          ],
+          "anchos_puerta_mm": [
+            624,
+            724,
+            824,
+            924
+          ]
+        },
+        "fuente": "sardegna",
+        "apartado": "Medidas"
+      },
+      "pdf_local": null,
+      "notas": [
+        {
+          "nota": "La página no describe la composición interna ni permite confirmar si los acabados de madera son macizos o enchapados. No trasladar composición de otras líneas.",
+          "fuente": "sardegna"
+        },
+        {
+          "nota": "El marco con buña no está desglosado en filo interior/exterior.",
+          "fuente": "sardegna",
+          "apartado": "Marco"
+        },
+        {
+          "nota": "Etiquetas visibles de apertura dicen corrediza; alt de algunas imágenes dice pivotante. Priorizar texto visible.",
+          "fuente": "sardegna",
+          "apartado": "Configuraciones"
+        },
+        {
+          "nota": "No se publica configuración Puerta y media ni variante vidriada. No completarlas por analogía con otras líneas.",
+          "fuente": "sardegna"
+        },
+        {
+          "nota": "Las denominaciones Nogal oscuro y Nogal claro son etiquetas visibles oficiales, pero la muestra de Nogal claro y el render correspondiente tienen Cedro en el filename. El PDF público Avignon también contiene ambas nomenclaturas. No mapear esa muestra sin confirmación; ver auditoria_muestras_sardegna_avignon.",
+          "fuente": "sardegna",
+          "apartado": "Maderas y acabados"
+        }
+      ],
+      "descargas_de_producto": [],
+      "recursos_generales_separados": [
+        {
+          "titulo": "Marco buña filo interior",
+          "ruta": "assets/pdf/marco-buna-filo-interior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_interior"
+        },
+        {
+          "titulo": "Filo muro",
+          "ruta": "assets/pdf/filo-muro.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_filomuro"
+        },
+        {
+          "titulo": "Marco buña filo exterior",
+          "ruta": "assets/pdf/marco-buna-filo-exterior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_exterior"
+        },
+        {
+          "titulo": "Marco y contramarco",
+          "ruta": "assets/pdf/marco-y-contramarco.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_contramarco"
+        }
+      ]
+    },
+    {
+      "id": "avignon",
+      "nombre": {
+        "valor": "Avignon",
+        "fuente": "avignon",
+        "apartado": "Título"
+      },
+      "descripcion": {
+        "valor": "Puerta con tablero de madera o vidrio, en nogal claro, nogal oscuro o blanco.",
+        "fuente": "avignon",
+        "apartado": "Maderas y acabados / Modelos"
+      },
+      "materiales_acabados": [
+        {
+          "valor": [
+            "Nogal oscuro",
+            "Nogal claro",
+            "Pintado blanco"
+          ],
+          "fuente": "avignon",
+          "apartado": "Maderas y acabados"
+        }
+      ],
+      "configuraciones": {
+        "valor": [
+          "Simple",
+          "Doble",
+          "Simple con paño superior fijo",
+          "Corrediza simple",
+          "Corrediza doble",
+          "Puerta y media"
+        ],
+        "fuente": "avignon",
+        "apartado": "Configuraciones"
+      },
+      "composicion": [],
+      "modelos": [
+        {
+          "valor": [
+            "Tablero de madera",
+            "Tablero de vidrio"
+          ],
+          "fuente": "avignon",
+          "apartado": "Modelos"
+        }
+      ],
+      "marcos_compatibles": {
+        "valor": [
+          "Sin premarco",
+          "Con premarco",
+          "Con buña"
+        ],
+        "fuente": "avignon",
+        "apartado": "Marco"
+      },
+      "medidas_publicables": [],
+      "medidas_web_no_trasladar": {
+        "valor": {
+          "altos_puerta_mm": [
+            2018,
+            2218,
+            2418,
+            2618
+          ],
+          "anchos_puerta_mm": [
+            624,
+            724,
+            824,
+            924
+          ]
+        },
+        "fuente": "avignon",
+        "apartado": "Medidas"
+      },
+      "pdf_local": null,
+      "notas": [
+        {
+          "nota": "La página no describe la composición interna ni permite confirmar si los acabados de madera son macizos o enchapados. No trasladar composición de otras líneas.",
+          "fuente": "avignon"
+        },
+        {
+          "nota": "El marco con buña no está desglosado en filo interior/exterior.",
+          "fuente": "avignon",
+          "apartado": "Marco"
+        },
+        {
+          "nota": "Etiquetas visibles de apertura dicen corrediza; alt de algunas imágenes dice pivotante. Priorizar texto visible.",
+          "fuente": "avignon",
+          "apartado": "Configuraciones"
+        },
+        {
+          "nota": "Las denominaciones Nogal oscuro y Nogal claro son etiquetas visibles oficiales, pero la muestra de Nogal claro y el render correspondiente tienen Cedro en el filename. El PDF público Avignon también contiene ambas nomenclaturas. No mapear esa muestra sin confirmación; ver auditoria_muestras_sardegna_avignon.",
+          "fuente": "avignon",
+          "apartado": "Maderas y acabados"
+        }
+      ],
+      "descargas_de_producto": [],
+      "recursos_generales_separados": [
+        {
+          "titulo": "Marco buña filo interior",
+          "ruta": "assets/pdf/marco-buna-filo-interior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_interior"
+        },
+        {
+          "titulo": "Filo muro",
+          "ruta": "assets/pdf/filo-muro.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_filomuro"
+        },
+        {
+          "titulo": "Marco buña filo exterior",
+          "ruta": "assets/pdf/marco-buna-filo-exterior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_exterior"
+        },
+        {
+          "titulo": "Marco y contramarco",
+          "ruta": "assets/pdf/marco-y-contramarco.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_contramarco"
+        }
+      ]
+    },
+    {
+      "id": "burdeos",
+      "nombre": {
+        "valor": "Burdeos",
+        "fuente": "burdeos",
+        "pagina": 2,
+        "apartado": "Título"
+      },
+      "descripcion": {
+        "valor": "Diseño de tableros definidos, con opción de nogal macizo o pintura laqueada.",
+        "fuente": "burdeos",
+        "pagina": 2,
+        "apartado": "Composición, madera maciza y pintado"
+      },
+      "materiales_acabados": [
+        {
+          "valor": {
+            "tipo": "Madera maciza",
+            "madera": "Nogal",
+            "acabado": "Recubrimiento poliuretánico al agua, sin teñir la madera"
+          },
+          "fuente": "burdeos",
+          "pagina": 2,
+          "apartado": "Madera maciza"
+        },
+        {
+          "valor": {
+            "tipo": "Pintado",
+            "colores": [
+              "Blanco",
+              "Gris",
+              "Negro",
+              "Rosa",
+              "Verde"
+            ],
+            "acabado": "Lacas al agua"
+          },
+          "fuente": "burdeos",
+          "pagina": 2,
+          "apartado": "Pintado"
+        },
+        {
+          "valor": "Proceso en cabinas de pintura presurizadas y calefaccionadas",
+          "fuente": "burdeos",
+          "pagina": 2,
+          "apartado": "Pintado"
+        }
+      ],
+      "configuraciones": {
+        "valor": [
+          "Simple",
+          "Doble",
+          "Simple con paño superior fijo",
+          "Corrediza simple",
+          "Corrediza doble",
+          "Puerta y media"
+        ],
+        "fuente": "burdeos",
+        "pagina": 2,
+        "apartado": "Configuraciones"
+      },
+      "composicion": [
+        {
+          "valor": "Parantes de 44 × 124 mm",
+          "fuente": "burdeos",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        },
+        {
+          "valor": "Zócalo de 44 × 219 mm",
+          "fuente": "burdeos",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        },
+        {
+          "valor": {
+            "elemento": "Tablero central",
+            "espesor_mm": 42,
+            "solo_para": "Madera maciza"
+          },
+          "fuente": "burdeos",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        },
+        {
+          "valor": {
+            "elemento": "Tablero central",
+            "espesor_mm": 25,
+            "solo_para": "Puertas pintadas"
+          },
+          "fuente": "burdeos",
+          "pagina": 2,
+          "apartado": "Composición de hoja"
+        }
+      ],
+      "modelos": [
+        {
+          "valor": "Tableros de madera",
+          "fuente": "burdeos",
+          "pagina": 2,
+          "apartado": "Modelos"
+        },
+        {
+          "valor": "Vidriado en el tablero superior",
+          "fuente": "burdeos",
+          "pagina": 2,
+          "apartado": "Modelos"
+        }
+      ],
+      "marcos_compatibles": {
+        "valor": null,
+        "fuente": "burdeos",
+        "pagina": 2,
+        "nota": "La ficha de producto no identifica por nombre qué sistemas son compatibles. Los 4 PDF de marcos son recursos independientes. No inferir compatibilidad completa a partir del espesor ni de fotografías."
+      },
+      "medidas_publicables": [],
+      "pdf_local": "assets/pdf/puerta-burdeos.pdf",
+      "notas": [
+        {
+          "nota": "42 mm y 25 mm son espesores de tablero, no espesor total de hoja; el gráfico indica parantes de 44 mm.",
+          "fuente": "burdeos",
+          "pagina": 2
+        }
+      ],
+      "descargas_de_producto": [
+        {
+          "titulo": "Ficha de Puerta Burdeos",
+          "ruta": "assets/pdf/puerta-burdeos.pdf",
+          "relacion": "Ficha vigente de esta familia de producto",
+          "fuente": "burdeos"
+        }
+      ],
+      "recursos_generales_separados": [
+        {
+          "titulo": "Marco buña filo interior",
+          "ruta": "assets/pdf/marco-buna-filo-interior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_interior"
+        },
+        {
+          "titulo": "Filo muro",
+          "ruta": "assets/pdf/filo-muro.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_filomuro"
+        },
+        {
+          "titulo": "Marco buña filo exterior",
+          "ruta": "assets/pdf/marco-buna-filo-exterior.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_exterior"
+        },
+        {
+          "titulo": "Marco y contramarco",
+          "ruta": "assets/pdf/marco-y-contramarco.pdf",
+          "relacion": "Información general del sistema; la descarga no confirma compatibilidad con esta línea",
+          "fuente": "marco_contramarco"
+        }
+      ]
+    }
+  ],
+  "sistemas_marcos": [
+    {
+      "id": "buna-filo-interior",
+      "nombre": {
+        "valor": "Marco buña filo interior",
+        "fuente": "marco_interior",
+        "pagina": 2,
+        "apartado": "Título"
+      },
+      "pdf_local": "assets/pdf/marco-buna-filo-interior.pdf",
+      "espesor_hoja_esquema": {
+        "valor": [
+          44,
+          58
+        ],
+        "fuente": "marco_interior",
+        "pagina": 2,
+        "apartado": "Dimensiones generales"
+      },
+      "alturas_estandar": {
+        "valor": {
+          "paso_mm": [
+            2020,
+            2220,
+            2420,
+            2620
+          ],
+          "hoja_mm": [
+            2019,
+            2219,
+            2419,
+            2619
+          ]
+        },
+        "fuente": "marco_interior",
+        "pagina": 2,
+        "apartado": "Medidas estándares de hojas"
+      },
+      "anchos_estandar": {
+        "valor": {
+          "paso_1_hoja_mm": [
+            610,
+            710,
+            810,
+            910
+          ],
+          "hoja_mm": [
+            624,
+            724,
+            824,
+            924
+          ],
+          "paso_2_hojas_mm": [
+            1227,
+            1427,
+            1627,
+            1827
+          ],
+          "nota": "En la tabla de dos hojas, la medida HOJA es por hoja."
+        },
+        "fuente": "marco_interior",
+        "pagina": 2,
+        "apartado": "Medidas estándares de hojas"
+      },
+      "apertura_mamposteria": {
+        "valor": {
+          "alto_libre_suma_al_paso_mm": 92,
+          "ancho_libre_suma_al_paso_mm": 184
+        },
+        "fuente": "marco_interior",
+        "pagina": 2,
+        "apartado": "Dimensiones generales y tablas de altos/anchos"
+      },
+      "limites_tabla": {
+        "valor": {
+          "altos_paso_blancas_mm": [
+            2020,
+            2220,
+            2420,
+            2620,
+            2820
+          ],
+          "altos_paso_enchapadas_mm": [
+            2020,
+            2220,
+            2420,
+            2620
+          ]
+        },
+        "fuente": "marco_interior",
+        "pagina": 2,
+        "apartado": "Tablas de 1 y 2 hojas"
+      },
+      "compatibilidad_modelos": {
+        "valor": null,
+        "nota": "Documento del sistema; no nombra líneas de producto compatibles."
+      }
+    },
+    {
+      "id": "filo-muro",
+      "nombre": {
+        "valor": "Filo muro",
+        "fuente": "marco_filomuro",
+        "pagina": 2,
+        "apartado": "Título"
+      },
+      "pdf_local": "assets/pdf/filo-muro.pdf",
+      "espesor_hoja_esquema": {
+        "valor": [
+          58
+        ],
+        "fuente": "marco_filomuro",
+        "pagina": 2,
+        "apartado": "Dimensiones generales"
+      },
+      "alturas_estandar": {
+        "valor": {
+          "paso_mm": [
+            2020,
+            2220,
+            2420,
+            2620
+          ],
+          "hoja_mm": [
+            2024,
+            2224,
+            2424,
+            2624
+          ]
+        },
+        "fuente": "marco_filomuro",
+        "pagina": 2,
+        "apartado": "Medidas estándares de hojas"
+      },
+      "anchos_estandar": {
+        "valor": {
+          "paso_1_hoja_mm": [
+            610,
+            710,
+            810,
+            910
+          ],
+          "hoja_mm": [
+            628,
+            728,
+            828,
+            928
+          ],
+          "paso_2_hojas_mm": [
+            1229,
+            1429,
+            1629,
+            1829
+          ],
+          "nota": "En la tabla de dos hojas, la medida HOJA es por hoja."
+        },
+        "fuente": "marco_filomuro",
+        "pagina": 2,
+        "apartado": "Medidas estándares de hojas"
+      },
+      "apertura_mamposteria": {
+        "valor": {
+          "alto_libre_suma_al_paso_mm": 67,
+          "ancho_libre_suma_al_paso_mm": 134
+        },
+        "fuente": "marco_filomuro",
+        "pagina": 2,
+        "apartado": "Dimensiones generales y tablas de altos/anchos"
+      },
+      "limites_tabla": {
+        "valor": {
+          "altos_paso_blancas_mm": [
+            2020,
+            2220,
+            2420,
+            2620,
+            2820
+          ],
+          "altos_paso_enchapadas_mm": [
+            2020,
+            2220,
+            2420,
+            2620
+          ]
+        },
+        "fuente": "marco_filomuro",
+        "pagina": 2,
+        "apartado": "Tablas de 1 y 2 hojas"
+      },
+      "compatibilidad_modelos": {
+        "valor": null,
+        "nota": "Documento del sistema; no nombra líneas de producto compatibles."
+      }
+    },
+    {
+      "id": "buna-filo-exterior",
+      "nombre": {
+        "valor": "Marco buña filo exterior",
+        "fuente": "marco_exterior",
+        "pagina": 2,
+        "apartado": "Título"
+      },
+      "pdf_local": "assets/pdf/marco-buna-filo-exterior.pdf",
+      "espesor_hoja_esquema": {
+        "valor": [
+          58
+        ],
+        "fuente": "marco_exterior",
+        "pagina": 2,
+        "apartado": "Dimensiones generales"
+      },
+      "alturas_estandar": {
+        "valor": {
+          "paso_mm": [
+            2020,
+            2220,
+            2420,
+            2620
+          ],
+          "hoja_mm": [
+            2019,
+            2219,
+            2419,
+            2619
+          ]
+        },
+        "fuente": "marco_exterior",
+        "pagina": 2,
+        "apartado": "Medidas estándares de hojas"
+      },
+      "anchos_estandar": {
+        "valor": {
+          "paso_1_hoja_mm": [
+            610,
+            710,
+            810,
+            910
+          ],
+          "hoja_mm": [
+            624,
+            724,
+            824,
+            924
+          ],
+          "paso_2_hojas_mm": [
+            1227,
+            1427,
+            1627,
+            1827
+          ],
+          "nota": "En la tabla de dos hojas, la medida HOJA es por hoja."
+        },
+        "fuente": "marco_exterior",
+        "pagina": 2,
+        "apartado": "Medidas estándares de hojas"
+      },
+      "apertura_mamposteria": {
+        "valor": {
+          "alto_libre_suma_al_paso_mm": 92,
+          "ancho_libre_suma_al_paso_mm": 184
+        },
+        "fuente": "marco_exterior",
+        "pagina": 2,
+        "apartado": "Dimensiones generales y tablas de altos/anchos"
+      },
+      "limites_tabla": {
+        "valor": {
+          "altos_paso_blancas_mm": [
+            2020,
+            2220,
+            2420,
+            2620,
+            2820
+          ],
+          "altos_paso_enchapadas_mm": [
+            2020,
+            2220,
+            2420,
+            2620
+          ]
+        },
+        "fuente": "marco_exterior",
+        "pagina": 2,
+        "apartado": "Tablas de 1 y 2 hojas"
+      },
+      "compatibilidad_modelos": {
+        "valor": null,
+        "nota": "Documento del sistema; no nombra líneas de producto compatibles."
+      }
+    },
+    {
+      "id": "marco-contramarco",
+      "nombre": {
+        "valor": "Marco y contramarco",
+        "fuente": "marco_contramarco",
+        "pagina": 2,
+        "apartado": "Título"
+      },
+      "pdf_local": "assets/pdf/marco-y-contramarco.pdf",
+      "espesor_hoja_esquema": {
+        "valor": [
+          44
+        ],
+        "fuente": "marco_contramarco",
+        "pagina": 2,
+        "apartado": "Dimensiones generales"
+      },
+      "alturas_estandar": {
+        "valor": {
+          "paso_mm": [
+            2020,
+            2220,
+            2420,
+            2620
+          ],
+          "hoja_mm": [
+            2019,
+            2219,
+            2419,
+            2619
+          ]
+        },
+        "fuente": "marco_contramarco",
+        "pagina": 2,
+        "apartado": "Medidas estándares de hojas"
+      },
+      "anchos_estandar": {
+        "valor": {
+          "paso_1_hoja_mm": [
+            610,
+            710,
+            810,
+            910
+          ],
+          "hoja_mm": [
+            624,
+            724,
+            824,
+            924
+          ],
+          "paso_2_hojas_mm": [
+            1227,
+            1427,
+            1627,
+            1827
+          ],
+          "nota": "En dos hojas, HOJA refiere a cada hoja."
+        },
+        "fuente": "marco_contramarco",
+        "pagina": 2,
+        "apartado": "Medidas estándares de hojas"
+      },
+      "apertura_mamposteria": [
+        {
+          "valor": {
+            "instalacion": "Con premarco",
+            "alto_libre_suma_al_paso_mm": 72,
+            "ancho_libre_suma_al_paso_mm": 144
+          },
+          "fuente": "marco_contramarco",
+          "pagina": 2,
+          "apartado": "Medidas con premarco"
+        },
+        {
+          "valor": {
+            "instalacion": "Sin premarco",
+            "alto_libre_suma_al_paso_mm": 54,
+            "ancho_libre_suma_al_paso_mm": 108
+          },
+          "fuente": "marco_contramarco",
+          "pagina": 2,
+          "apartado": "Medidas sin premarco"
+        }
+      ],
+      "limites_tabla": {
+        "valor": {
+          "altos_paso_blancas_mm": [
+            2020,
+            2220,
+            2420,
+            2620,
+            2820
+          ],
+          "altos_paso_enchapadas_mm": [
+            2020,
+            2220,
+            2420,
+            2620
+          ]
+        },
+        "fuente": "marco_contramarco",
+        "pagina": 2,
+        "apartado": "Tablas con/sin premarco"
+      },
+      "regulacion_tabique": {
+        "valor": [
+          {
+            "marco_mm": 100,
+            "tabique_min_mm": 100,
+            "tabique_max_mm": 120
+          },
+          {
+            "marco_mm": 150,
+            "tabique_min_mm": 150,
+            "tabique_max_mm": 170
+          },
+          {
+            "marco_mm": 200,
+            "tabique_min_mm": 200,
+            "tabique_max_mm": 220
+          }
+        ],
+        "fuente": "marco_contramarco",
+        "pagina": 2,
+        "apartado": "Anchos de pared y contramarcos regulables"
+      },
+      "detalles": [
+        {
+          "valor": "Contramarco telescópico con opciones lisa y moldurada",
+          "fuente": "marco_contramarco",
+          "pagina": 2,
+          "apartado": "Contramarco telescópico"
+        },
+        {
+          "valor": "Zocalín para resolver la conexión entre contramarco y zócalo",
+          "fuente": "marco_contramarco",
+          "pagina": 2,
+          "apartado": "Zocalín"
+        }
+      ],
+      "compatibilidad_modelos": {
+        "valor": null,
+        "nota": "Documento del sistema; no nombra líneas de producto compatibles."
+      }
+    }
+  ],
+  "herrajes_segun_documentos_marcos": [
+    {
+      "valor": "Burlete EPDM italiano en blanco o marrón",
+      "fuentes": [
+        "marco_interior",
+        "marco_filomuro",
+        "marco_exterior",
+        "marco_contramarco"
+      ],
+      "pagina": 2
+    },
+    {
+      "valor": "Enderezador para alturas mayores a 2400 mm",
+      "fuentes": [
+        "marco_interior",
+        "marco_filomuro",
+        "marco_exterior",
+        "marco_contramarco"
+      ],
+      "pagina": 2
+    },
+    {
+      "valor": "Cerradura magnética en versiones con llave, para baño o con cilindro",
+      "fuentes": [
+        "marco_interior",
+        "marco_filomuro",
+        "marco_exterior",
+        "marco_contramarco"
+      ],
+      "pagina": 2
+    },
+    {
+      "valor": "Retén magnético y bisagras; se muestran bisagra oculta italiana y bisagra de acero inoxidable",
+      "fuentes": [
+        "marco_interior",
+        "marco_filomuro",
+        "marco_exterior",
+        "marco_contramarco"
+      ],
+      "pagina": 2
+    }
+  ],
+  "discrepancias_y_pendientes": [
+    {
+      "tema": "Alturas web frente a PDF",
+      "fuentes": [
+        "foliada",
+        "toscana",
+        "sardegna",
+        "avignon",
+        "marco_interior",
+        "marco_filomuro",
+        "marco_exterior",
+        "marco_contramarco"
+      ],
+      "detalle": "Las cuatro fichas web revisadas enumeran 2018/2218/2418/2618 mm de alto de puerta. PDF 001/003/004 enumeran hojas 2019/2219/2419/2619 mm; PDF 002 Filo Muro enumera 2024/2224/2424/2624 mm. No publicar una tabla de medidas universal ni corregir la web sumando un milímetro a todo.",
+      "accion": "Mostrar medidas por sistema desde PDF y remitir consultas específicas a comercial."
+    },
+    {
+      "tema": "Alturas máximas de terminación frente a medidas estándar de sistema",
+      "fuentes": [
+        "placa",
+        "aldeana",
+        "marco_interior",
+        "marco_filomuro",
+        "marco_exterior",
+        "marco_contramarco"
+      ],
+      "detalle": "Placa y Aldeana PDF: máximos 2750 mm de hoja reconstituida y 2900 mm de hoja natural. Marcos: tablas estándar de paso enchapado llegan a 2620 mm. Son magnitudes/alcances diferentes.",
+      "accion": "Mantener separados máximo de material y dimensiones estándar de marco; no fabricar una nueva combinación."
+    },
+    {
+      "tema": "PDF no disponibles de cuatro líneas",
+      "fuentes": [
+        "foliada",
+        "toscana",
+        "sardegna",
+        "avignon"
+      ],
+      "detalle": "No hay PDF local específico ni composición verificada para estas líneas.",
+      "accion": "Ficha pública puede contener acabados/configuraciones y contacto, con recursos generales claramente separados."
+    },
+    {
+      "tema": "Compatibilidad por línea",
+      "fuentes": [
+        "placa",
+        "aldeana",
+        "burdeos"
+      ],
+      "detalle": "Sus PDF locales no detallan la matriz de marcos compatibles.",
+      "accion": "No implementar selección cruzada ilimitada de marco/modelo."
+    },
+    {
+      "tema": "Foliada y Placa",
+      "fuentes": [
+        "placa",
+        "foliada"
+      ],
+      "detalle": "Placa PDF nombra enchapado y laqueado, no foliado.",
+      "accion": "No asignar EPS/MDF 9 mm ni espesores 44/58 mm a foliada por inferencia."
+    },
+    {
+      "tema": "Pinturas",
+      "fuentes": [
+        "placa",
+        "aldeana",
+        "burdeos"
+      ],
+      "detalle": "Placa y Aldeana solo listan blanco; Burdeos lista blanco, gris, negro, rosa y verde.",
+      "accion": "Mantener colores específicos por línea."
+    },
+    {
+      "tema": "Promesas comerciales y certificaciones",
+      "fuentes": [
+        "placa",
+        "aldeana",
+        "burdeos",
+        "marco_contramarco"
+      ],
+      "detalle": "Los PDF de productos y 004 muestran 1 año de garantía y sellos de burletes/naturaleza de materiales. No aportan certificado completo ni datos de capacidad productiva.",
+      "accion": "No convertir esos sellos en certificaciones corporativas nuevas ni inventar volúmenes; no extrapolar garantías a términos legales."
+    }
+  ],
+  "auditoria_muestras_sardegna_avignon": {
+    "fecha": "2026-09-21",
+    "paginas": [
+      "https://www.marroncelli.com/puertas-de-interior-sardegna.php",
+      "https://www.marroncelli.com/puertas-de-interior-avignon.php"
+    ],
+    "html_verificado": [
+      {
+        "imagen": "images/info-fichas/Madera-Maciza-Nogal.jpg",
+        "alt": "Nogal Oscuro",
+        "figcaption": "Nogal Oscuro"
+      },
+      {
+        "imagen": "images/info-fichas/Madera-Maciza-Cedro.jpg",
+        "alt": "Nogal Claro",
+        "figcaption": "Nogal Claro"
+      }
+    ],
+    "fuente_general": "https://www.marroncelli.com/maderas-y-acabados.php",
+    "explicacion_publicada": "La sección oficial Madera maciza enumera Nogal Oscuro y Nogal Claro. Explica tono natural de la materia prima y recubrimiento poliuretánico al agua sin teñido. No explica diferencia de especie entre esas denominaciones ni la contradicción con Cedro.",
+    "corroboracion_sardegna": {
+      "fuente": "https://www.marroncelli.com/pdf/Puerta-SARDEGNA-Ficha.pdf",
+      "paginas": [
+        4,
+        5
+      ],
+      "texto": "El PDF público enumera Nogal Oscuro, Nogal Claro y Blanco; sección de madera maciza."
+    },
+    "contradiccion_avignon": {
+      "fuente": "https://www.marroncelli.com/pdf/Puerta-AVIGNON-Ficha.pdf",
+      "paginas": [
+        3,
+        4
+      ],
+      "texto": "El mismo PDF público llama Nogal/Cedro/Blanco a los renders de la página 3 y Nogal Oscuro/Nogal Claro a las muestras de la página 4. La incoherencia excede los filenames."
+    },
+    "recomendacion": [
+      "Mantener las denominaciones comerciales visibles de la web como texto; no crear una opción Cedro basándose en el archivo.",
+      "No vincular la muestra o el render con Cedro en su nombre a una selección Nogal Claro mientras la correspondencia no se confirme.",
+      "Usar para imagen principal el render identificado como Nogal o la opción blanca; se pueden mostrar Nogal Oscuro y Blanco con las muestras coherentes.",
+      "La opción Nogal Claro puede estar como nombre de consulta sin muestra visual específica. Mantener la contradicción fuera de la interfaz pública y en pendientes de contenido."
+    ],
+    "limitacion": "El navegador de fuentes extrajo los PDF pero falló al obtener capturas; la contradicción de sus rótulos se reporta desde extracción textual. HTML de ambas fichas comprobado directamente."
+  }
+}

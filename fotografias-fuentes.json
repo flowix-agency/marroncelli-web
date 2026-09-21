@@ -1,0 +1,164 @@
+{
+  "consultado": "2026-09-21T01:06:21.884292+00:00",
+  "sitio": "https://www.marroncelli.com/",
+  "imagenes": [
+    {
+      "nombre": "01-hero-comedor-madera",
+      "titulo": "Hero · comedor y madera",
+      "uso_sugerido": "Candidata principal",
+      "url_original": "https://www.marroncelli.com/assets/home/header.svg",
+      "paginas_de_origen": [
+        "https://www.marroncelli.com/css/home.css"
+      ],
+      "ancho_original": 3513,
+      "alto_original": 2341,
+      "archivo_original": "originales/01-hero-comedor-madera.png",
+      "extraida_del_svg_sin_modificar": true
+    },
+    {
+      "nombre": "02-ambiente-escalera",
+      "titulo": "Ambiente · escalera",
+      "uso_sugerido": "Alternativa de composición",
+      "url_original": "https://www.marroncelli.com/images/inicio/Armonia-Hogar.png",
+      "paginas_de_origen": [
+        "https://www.marroncelli.com/css/home.css"
+      ],
+      "ancho_original": 1010,
+      "alto_original": 600,
+      "archivo_original": "originales/02-ambiente-escalera.png",
+      "extraida_del_svg_sin_modificar": false
+    },
+    {
+      "nombre": "03-ambiente-comedor-claro",
+      "titulo": "Ambiente · comedor claro",
+      "uso_sugerido": "Alternativa de composición",
+      "url_original": "https://www.marroncelli.com/images/inicio/Calidad-Confort.png",
+      "paginas_de_origen": [
+        "https://www.marroncelli.com/css/home.css"
+      ],
+      "ancho_original": 1205,
+      "alto_original": 600,
+      "archivo_original": "originales/03-ambiente-comedor-claro.png",
+      "extraida_del_svg_sin_modificar": false
+    },
+    {
+      "nombre": "04-empresa-fabrica",
+      "titulo": "Empresa · vista de fábrica",
+      "uso_sugerido": "Presentación institucional",
+      "url_original": "https://www.marroncelli.com/images/nosotros/header.jpg",
+      "paginas_de_origen": [
+        "https://www.marroncelli.com/css/nosotros.css"
+      ],
+      "ancho_original": 3526,
+      "alto_original": 2206,
+      "archivo_original": "originales/04-empresa-fabrica.jpg",
+      "extraida_del_svg_sin_modificar": false
+    },
+    {
+      "nombre": "05-empresa-proceso",
+      "titulo": "Empresa · proceso",
+      "uso_sugerido": "Fabricación y calidad",
+      "url_original": "https://www.marroncelli.com/images/nosotros/calidad.jpg",
+      "paginas_de_origen": [
+        "https://www.marroncelli.com/nosotros.php"
+      ],
+      "ancho_original": 1300,
+      "alto_original": 887,
+      "archivo_original": "originales/05-empresa-proceso.jpg",
+      "extraida_del_svg_sin_modificar": false
+    },
+    {
+      "nombre": "06-empresa-preparacion",
+      "titulo": "Empresa · preparación",
+      "uso_sugerido": "Experiencia y trabajo",
+      "url_original": "https://www.marroncelli.com/images/nosotros/experiencia.jpg",
+      "paginas_de_origen": [
+        "https://www.marroncelli.com/nosotros.php"
+      ],
+      "ancho_original": 1300,
+      "alto_original": 886,
+      "archivo_original": "originales/06-empresa-preparacion.jpg",
+      "extraida_del_svg_sin_modificar": false
+    },
+    {
+      "nombre": "07-detalle-bisagra",
+      "titulo": "Detalle · bisagra oculta",
+      "uso_sugerido": "Herrajes",
+      "url_original": "https://www.marroncelli.com/images/puertas-de-interior/manijas-y-herrajes-01.jpg",
+      "paginas_de_origen": [
+        "https://www.marroncelli.com/sobre-nuestras-puertas.php"
+      ],
+      "ancho_original": 679,
+      "alto_original": 966,
+      "archivo_original": "originales/07-detalle-bisagra.jpg",
+      "extraida_del_svg_sin_modificar": false
+    },
+    {
+      "nombre": "08-detalle-marco",
+      "titulo": "Detalle · marco",
+      "uso_sugerido": "Sistemas y terminaciones",
+      "url_original": "https://www.marroncelli.com/images/puertas-de-interior/sistema-de-marcos-02.jpg",
+      "paginas_de_origen": [
+        "https://www.marroncelli.com/sobre-nuestras-puertas.php"
+      ],
+      "ancho_original": 682,
+      "alto_original": 965,
+      "archivo_original": "originales/08-detalle-marco.jpg",
+      "extraida_del_svg_sin_modificar": false
+    },
+    {
+      "nombre": "09-material-madera",
+      "titulo": "Material · madera",
+      "uso_sugerido": "Materiales",
+      "url_original": "https://www.marroncelli.com/images/sobre-nuestras-puertas/madera.jpg",
+      "paginas_de_origen": [
+        "https://www.marroncelli.com/sobre-nuestras-puertas.php"
+      ],
+      "ancho_original": 679,
+      "alto_original": 964,
+      "archivo_original": "originales/09-material-madera.jpg",
+      "extraida_del_svg_sin_modificar": false
+    },
+    {
+      "nombre": "10-catalogo-placa-enchapada",
+      "titulo": "Catálogo · placa enchapada",
+      "uso_sugerido": "Render de producto",
+      "url_original": "https://www.marroncelli.com/images/estilo-de-puertas/Placa_En_Nogal-Rayado_A2.png",
+      "paginas_de_origen": [
+        "https://www.marroncelli.com/estilo-de-puertas.php",
+        "https://www.marroncelli.com/puertas-de-interior-enchapada.php"
+      ],
+      "ancho_original": 600,
+      "alto_original": 600,
+      "archivo_original": "originales/10-catalogo-placa-enchapada.png",
+      "extraida_del_svg_sin_modificar": false
+    },
+    {
+      "nombre": "11-catalogo-toscana",
+      "titulo": "Catálogo · Toscana",
+      "uso_sugerido": "Render de producto",
+      "url_original": "https://www.marroncelli.com/images/estilo-de-puertas/Toscana_En_Nogal-Rayado_A2.png",
+      "paginas_de_origen": [
+        "https://www.marroncelli.com/estilo-de-puertas.php",
+        "https://www.marroncelli.com/puertas-de-interior-toscana.php"
+      ],
+      "ancho_original": 600,
+      "alto_original": 600,
+      "archivo_original": "originales/11-catalogo-toscana.png",
+      "extraida_del_svg_sin_modificar": false
+    },
+    {
+      "nombre": "12-catalogo-avignon",
+      "titulo": "Catálogo · Avignon",
+      "uso_sugerido": "Render de producto",
+      "url_original": "https://www.marroncelli.com/images/estilo-de-puertas/Avignon_Mad_Nogal_A1.jpg",
+      "paginas_de_origen": [
+        "https://www.marroncelli.com/puertas-de-interior-avignon.php"
+      ],
+      "ancho_original": 600,
+      "alto_original": 600,
+      "archivo_original": "originales/12-catalogo-avignon.jpg",
+      "extraida_del_svg_sin_modificar": false
+    }
+  ]
+}
