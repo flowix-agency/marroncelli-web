@@ -1,0 +1,40 @@
+.scroll-entry {
+  --entry-x: 0px;
+  --entry-y: 18px;
+  transition: opacity 650ms ease, transform 850ms cubic-bezier(.22, .61, .36, 1);
+}
+
+.scroll-entry[data-entry-side] {
+  --entry-y: 0px;
+  --entry-distance: min(64px, calc(var(--edge) - 8px));
+  transition-duration: 850ms;
+}
+
+.scroll-entry[data-entry-side="left"] {
+  --entry-x: calc(-1 * var(--entry-distance));
+}
+
+.scroll-entry[data-entry-side="right"] {
+  --entry-x: var(--entry-distance);
+}
+
+.scroll-entry.is-pending {
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(var(--entry-x), var(--entry-y));
+}
+
+.scroll-entry:focus-within {
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+@media print {
+  .scroll-entry,
+  .scroll-entry.is-pending {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}

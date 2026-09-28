@@ -1,0 +1,100 @@
+.model-page { --ink: #302e29; --muted: #696356; --rule: #c7c0b3; color: var(--ink); background: #f7f6f2; }
+.model-page h1, .model-page h2, .model-page h3 { font-family: Archivo, Arial, sans-serif; font-weight: 400; }
+.model-page figure, .model-page fieldset { margin: 0; }
+.model-page fieldset { padding: 0; border: 0; min-width: 0; }
+.model-page a { text-underline-offset: 5px; }
+.model-inner { max-width: 1376px; margin-inline: auto; padding-inline: var(--edge); }
+.model-intro { display: grid; grid-template-columns: .83fr 1fr; gap: 32px; max-width: 1600px; margin-inline: auto; padding: 22px var(--edge) 38px; }
+.model-intro-copy { display: flex; flex-direction: column; padding-bottom: 24px; }
+.model-intro-copy .model-breadcrumb { padding-top: 4px; }
+.model-intro-heading { margin-block: auto; padding-block: 30px; }
+.model-intro h1 { margin: 22px 0 26px; font-size: clamp(54px, 6.5vw, 96px); line-height: .98; letter-spacing: -.065em; }
+.model-intro-lead { max-width: 30ch; margin: 0 0 17px; font-size: clamp(19px, 1.65vw, 25px); line-height: 1.3; letter-spacing: -.025em; }
+.model-intro .model-description { max-width: 38ch; margin-bottom: 23px; font-size: 15px; line-height: 1.7; }
+.model-intro-foot { color: var(--muted); font-size: 11px; margin: 16px 0 0; }
+.model-room-photo { height: clamp(500px, 46vw, 700px); background: #e8e4db; overflow: hidden; }
+.model-room-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.model-room figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 7px 18px; padding-top: 12px; color: var(--muted); font-size: 10px; line-height: 1.5; }
+.model-options { padding-top: 58px; padding-bottom: 0; border-top: 1px solid var(--rule); }
+.model-options-heading { margin-bottom: 34px; }
+.model-options h2 { margin: 14px 0 0; font-size: clamp(32px, 3.4vw, 48px); line-height: 1.1; letter-spacing: -.05em; }
+.model-breadcrumb { display: flex; flex-wrap: wrap; gap: 10px; padding-block: 26px 30px; color: var(--muted); font-size: 11px; }
+.model-breadcrumb a { text-decoration: none; }
+.model-breadcrumb a:hover { text-decoration: underline; }
+.model-layout { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(35px, 7vw, 105px); align-items: start; padding-bottom: 75px; }
+.model-stage { position: sticky; top: 24px; padding: 22px 25px 20px; background: #e9e5dd; }
+.model-stage-label, .model-eyebrow { margin: 0; color: #766851; font-size: 10px; letter-spacing: .12em; text-transform: uppercase; line-height: 1.5; }
+.model-stage > img { display: block; width: 100%; height: clamp(360px, 42vw, 560px); object-fit: contain; mix-blend-mode: multiply; }
+.model-stage figcaption { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 7px 18px; border-top: 1px solid #bdb5a6; padding-top: 18px; font-size: 12px; }
+.model-stage figcaption span:last-child { font-size: 10px; color: var(--muted); }
+.model-note { font-size: 11px; line-height: 1.6; color: var(--muted); }
+.model-stage .model-note { margin: 12px 0 0; }
+.model-copy { padding-top: 7px; }
+.model-description { max-width: 42ch; margin: 0 0 34px; font-size: 16px; line-height: 1.6; color: var(--muted); }
+.model-finishes legend { margin-bottom: 15px; font-size: 13px; }
+.model-finishes > div { display: flex; flex-wrap: wrap; gap: 8px; }
+.model-finishes label { position: relative; cursor: pointer; }
+.model-finishes input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+.model-finishes label > span { display: block; padding: 12px 16px; border: 1px solid #b9b09f; font-size: 13px; }
+.model-finishes input:checked + span { background: #302e29; border-color: #302e29; color: #f7f6f2; }
+.model-finishes input:focus-visible + span { outline: 2px solid #806b43; outline-offset: 4px; }
+.model-more { margin-top: 19px; padding-bottom: 18px; border-bottom: 1px solid var(--rule); }
+.model-more summary { cursor: pointer; font-size: 13px; padding-block: 9px; }
+.model-more p { font-size: 13px; line-height: 1.65; color: var(--muted); margin: 12px 0; }
+.model-more strong { color: var(--ink); font-weight: 400; }
+.model-opening { margin-top: 25px; }
+.model-opening label { display: block; margin-bottom: 12px; font-size: 13px; }
+.model-opening select { display: block; width: 100%; border: 1px solid #aaa18e; border-radius: 0; padding: 13px 38px 13px 14px; font: inherit; font-size: 14px; background: #f7f6f2; color: var(--ink); }
+.model-details { margin-block: 24px; padding-block: 20px; border-block: 1px solid var(--rule); }
+.model-details p { margin: 0 0 14px; font-size: 13px; line-height: 1.65; color: var(--muted); }
+.model-text-link { display: inline-flex; justify-content: space-between; align-items: center; gap: 28px; padding-block: 10px; border-bottom: 1px solid #948773; text-decoration: none; font-size: 14px; }
+.model-text-link:hover { color: #80572f; }
+.model-text-link > span { font-size: 20px; }
+.model-query-button { display: flex; align-items: center; justify-content: space-between; gap: 24px; width: 100%; padding: 19px 23px; border: 1px solid #302e29; border-radius: 0; background: #302e29; color: #f7f6f2; font: inherit; font-size: 14px; text-decoration: none; text-align: left; }
+.model-query-button:hover { background: #4a4438; }
+.model-query-button span { font-size: 21px; }
+.model-frame { padding-block: 57px; background: #e8e3d9; }
+.model-frame .model-inner { display: grid; grid-template-columns: 1.1fr 1fr; gap: clamp(35px, 7vw, 105px); align-items: center; }
+.model-frame h2 { margin: 17px 0 0; font-size: clamp(32px, 3.2vw, 46px); line-height: 1.08; letter-spacing: -.05em; }
+.model-frame-copy > p { margin: 0 0 19px; max-width: 45ch; color: var(--muted); font-size: 14px; line-height: 1.7; }
+.model-dialog { width: min(580px, calc(100% - 32px)); max-height: calc(100dvh - 32px); padding: 30px; border: 0; background: #f7f6f2; color: var(--ink); }
+.model-dialog::backdrop { background: rgb(29 26 20 / 70%); }
+body:has(.model-dialog[open]) { overflow: hidden; }
+.model-dialog form { display: flex; justify-content: flex-end; margin-bottom: 24px; }
+.model-dialog form button { padding: 7px 0 7px 18px; border: 0; background: none; color: var(--ink); font-size: 13px; }
+.model-dialog h2 { margin: 15px 0 25px; font-size: 34px; line-height: 1.12; letter-spacing: -.04em; }
+.model-dialog label { display: block; margin-bottom: 12px; font-size: 13px; color: var(--muted); }
+.model-dialog textarea { display: block; width: 100%; resize: vertical; margin-bottom: 22px; padding: 15px; border: 1px solid #a69c8a; border-radius: 0; font: 14px/1.6 "Hanken Grotesk", Arial, sans-serif; color: var(--ink); background: #eeebe5; }
+@media (max-width: 900px) {
+  .model-intro { grid-template-columns: .9fr 1fr; gap: 24px; }
+  .model-intro h1 { font-size: 60px; }
+  .model-intro-heading { padding-block: 16px; }
+  .model-intro .model-description { font-size: 14px; }
+  .model-layout, .model-frame .model-inner { gap: 35px; grid-template-columns: 1fr 1fr; }
+  .model-stage { padding: 20px 17px; }
+  .model-stage > img { height: 380px; }
+  .model-description { font-size: 14px; }
+}
+@media (max-width: 680px) {
+  .model-intro { grid-template-columns: 1fr; padding-top: 12px; padding-bottom: 28px; gap: 14px; }
+  .model-intro-copy { padding-bottom: 0; }
+  .model-intro-heading { padding-block: 0; }
+  .model-intro h1 { font-size: clamp(53px, 11vw, 76px); margin-block: 16px 22px; }
+  .model-intro-lead { font-size: 21px; }
+  .model-intro-foot { display: none; }
+  .model-room-photo { height: auto; aspect-ratio: 1; }
+  .model-room-photo img { height: 100%; aspect-ratio: 1; }
+  .model-options { padding-top: 37px; }
+  .model-options-heading { margin-bottom: 26px; }
+  .model-breadcrumb { padding-block: 22px; }
+  .model-layout { display: flex; flex-direction: column; gap: 30px; padding-bottom: 45px; }
+  .model-stage { position: static; width: 100%; }
+  .model-stage > img { height: 355px; }
+  .model-copy { width: 100%; padding-top: 0; }
+  .model-description { font-size: 15px; margin-bottom: 26px; }
+  .model-finishes label > span { padding: 12px 14px; }
+  .model-frame { padding-block: 42px; }
+  .model-frame .model-inner { grid-template-columns: 1fr; gap: 24px; }
+  .model-dialog { padding: 22px; }
+  .model-dialog h2 { font-size: 30px; }
+}

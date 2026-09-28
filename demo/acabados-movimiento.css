@@ -1,0 +1,4 @@
+.finish-motion-host { position: relative; }
+img.finish-motion-previous { position: absolute; z-index: 1; max-width: none; max-height: none; margin: 0; pointer-events: none; transition: none; }
+.leaf-room-photo .room-label { z-index: 2; }
+.product-room-image > img[data-room] { transition: none; }

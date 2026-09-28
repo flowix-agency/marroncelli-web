@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": null,
   "buildCommand": "npm run build",
-  "outputDirectory": "dist",
+  "outputDirectory": "dist-demo",
   "installCommand": "",
   "redirects": [
     {
@@ -17,12 +17,12 @@
     },
     {
       "source": "/maderas-y-acabados.php",
-      "destination": "/materiales.html",
+      "destination": "/puertas.html",
       "permanent": true
     },
     {
       "source": "/nosotros.php",
-      "destination": "/empresa.html",
+      "destination": "/index.html#empresa",
       "permanent": true
     },
     {
@@ -32,37 +32,37 @@
     },
     {
       "source": "/distribuidores.php",
-      "destination": "/donde-comprar.html",
+      "destination": "/contacto.html",
       "permanent": true
     },
     {
       "source": "/proyectos-especiales.php",
-      "destination": "/profesionales.html",
+      "destination": "/contacto.html",
       "permanent": true
     },
     {
       "source": "/recursos-para-profesionales.php",
-      "destination": "/recursos-tecnicos.html",
+      "destination": "/sistemas-de-marcos.html",
       "permanent": true
     },
     {
       "source": "/recursos-de-instalacion.php",
-      "destination": "/recursos-tecnicos.html",
+      "destination": "/sistemas-de-marcos.html",
       "permanent": true
     },
     {
       "source": "/sistema-de-marcos.php",
-      "destination": "/marcos.html",
+      "destination": "/sistemas-de-marcos.html",
       "permanent": true
     },
     {
       "source": "/herrajes.php",
-      "destination": "/materiales.html#herrajes",
+      "destination": "/puertas.html",
       "permanent": true
     },
     {
       "source": "/burletes.php",
-      "destination": "/materiales.html#herrajes",
+      "destination": "/puertas.html",
       "permanent": true
     },
     {
@@ -72,12 +72,12 @@
     },
     {
       "source": "/sobre-nuestras-puertas.php",
-      "destination": "/materiales.html",
+      "destination": "/puertas.html",
       "permanent": true
     },
     {
       "source": "/tecnologia-superior.php",
-      "destination": "/empresa.html",
+      "destination": "/index.html#empresa",
       "permanent": true
     },
     {
@@ -119,6 +119,36 @@
       "source": "/puertas-de-interior-burdeos.php",
       "destination": "/burdeos.html",
       "permanent": true
+    },
+    {
+      "source": "/marcos.html",
+      "destination": "/sistemas-de-marcos.html",
+      "permanent": false
+    },
+    {
+      "source": "/empresa.html",
+      "destination": "/index.html#empresa",
+      "permanent": false
+    },
+    {
+      "source": "/materiales.html",
+      "destination": "/puertas.html",
+      "permanent": false
+    },
+    {
+      "source": "/donde-comprar.html",
+      "destination": "/contacto.html",
+      "permanent": false
+    },
+    {
+      "source": "/profesionales.html",
+      "destination": "/contacto.html",
+      "permanent": false
+    },
+    {
+      "source": "/recursos-tecnicos.html",
+      "destination": "/sistemas-de-marcos.html",
+      "permanent": false
     }
   ]
 }

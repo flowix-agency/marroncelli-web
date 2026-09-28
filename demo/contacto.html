@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Contacto · Marroncelli</title>
+  <meta name="description" content="Contanos qué estás buscando y continuá tu consulta por WhatsApp con el equipo comercial de Marroncelli.">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="preload" href="assets/fonts/archivo-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/hanken-grotesk-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="hero-san-diego.css?v=20260927-movimiento-2">
+  <link rel="stylesheet" href="contacto.css?v=20260927-movimiento-2">
+  <link rel="stylesheet" href="footer.css?v=20260927-movimiento-2">
+  <script src="navegacion.js?v=20260927-movimiento-2" defer></script>
+  <script src="contacto.js?v=20260927-movimiento-2" defer></script>
+  <link rel="stylesheet" href="navegacion.css?v=20260927-movimiento-2">
+  <link rel="stylesheet" href="movimiento.css?v=20260927-tercio-4">
+  <script src="movimiento.js?v=20260927-tercio-4" defer></script>
+</head>
+<body class="contact-page" id="inicio">
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Marroncelli, inicio"><img src="assets/logo.svg" alt="Marroncelli" width="175" height="40"></a>
+    <nav class="desktop-nav" aria-label="Principal">
+      <a href="puertas.html">Puertas</a>
+      <a href="sistemas-de-marcos.html">Marcos</a>
+      <a href="obras.html">Obras</a>
+      <a href="index.html#empresa">Empresa</a>
+      <a class="contact-link" href="contacto.html" aria-current="page">Contacto <span aria-hidden="true">↗</span></a>
+    </nav>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-haspopup="dialog">Menú <span aria-hidden="true"></span></button>
+  </header>
+  <dialog class="site-menu" id="site-menu" aria-labelledby="site-menu-title">
+    <div class="site-menu-heading"><p id="site-menu-title">Explorá Marroncelli</p><button class="site-menu-close" type="button" autofocus>Cerrar <span aria-hidden="true">×</span></button></div>
+    <nav aria-label="Navegación móvil">
+      <a href="index.html">Inicio</a>
+      <a href="puertas.html">Puertas</a>
+      <a href="sistemas-de-marcos.html">Marcos</a>
+      <a href="obras.html">Obras</a>
+      <a href="index.html#empresa">Empresa</a>
+      <a href="contacto.html" aria-current="page">Contacto <span aria-hidden="true">↗</span></a>
+    </nav>
+  </dialog>
+  <main id="contenido" tabindex="-1">
+    <div class="contact-wrap">
+      <nav class="contact-breadcrumb" aria-label="Ruta de navegación"><a href="index.html">Inicio</a><span aria-hidden="true">/</span><span aria-current="page">Contacto</span></nav>
+      <section class="contact-layout" id="contacto" aria-labelledby="consulta-titulo">
+        <div class="contact-intro">
+          <p class="contact-eyebrow">Contacto</p>
+          <h1 id="consulta-titulo">Contanos qué estás buscando.</h1>
+          <p>Completá tus datos y revisá el mensaje. Lo vas a continuar por WhatsApp con el equipo comercial; el envío lo hacés vos desde allí.</p>
+          <dl class="contacto-directo">
+            <div><dt>WhatsApp comercial</dt><dd><a href="https://wa.me/5491126696918" target="_blank" rel="noopener">+54 9 11 2669-6918</a></dd></div>
+            <div><dt>Correo</dt><dd><a href="mailto:ventas@marroncelli.com">ventas@marroncelli.com</a></dd></div>
+          </dl>
+        </div>
+    <form class="formulario" id="form-consulta" novalidate>
+      <div class="campos">
+        <div class="contexto" id="contexto" hidden>
+          <div class="contexto__cab"><strong>Producto de interés</strong><button type="button" class="boton-texto" id="quitar-contexto">Quitar</button></div>
+          <dl id="contexto-lista"><div><dt>Línea</dt><dd id="contexto-producto"></dd></div></dl>
+        </div>
+        <div class="campo">
+          <label for="f-nombre">Nombre</label>
+          <input id="f-nombre" name="nombre" autocomplete="name" required aria-describedby="e-nombre">
+          <span class="error" id="e-nombre"></span>
+        </div>
+        <div class="campo">
+          <label for="f-contacto">Correo o teléfono</label>
+          <input id="f-contacto" name="contacto" autocomplete="email" required aria-describedby="e-contacto">
+          <span class="error" id="e-contacto"></span>
+        </div>
+        <fieldset class="grupo" aria-describedby="e-tipo">
+          <legend>Tipo de consulta</legend>
+          <div class="opciones">
+            <label class="opcion"><input type="radio" name="tipo" required value="vivienda"><span>Vivienda unifamiliar</span></label>
+            <label class="opcion"><input type="radio" name="tipo" required value="constructora"><span>Constructora o desarrollo</span></label>
+            <label class="opcion"><input type="radio" name="tipo" required value="producto"><span>Consulta de producto o técnica</span></label>
+            <label class="opcion"><input type="radio" name="tipo" required value="showroom"><span>Visita al showroom</span></label>
+            <label class="opcion"><input type="radio" name="tipo" required value="distribuidores"><span>Distribuidores</span></label>
+          </div>
+          <span class="error" id="e-tipo"></span>
+        </fieldset>
+        <div class="proyecto-extra" id="proyecto-extra" hidden>
+          <p>Datos del proyecto, opcionales.</p>
+          <div class="campo"><label for="f-empresa">Empresa o estudio <span class="opcional">(opcional)</span></label><input id="f-empresa" name="empresa" autocomplete="organization"></div>
+          <div class="campo"><label for="f-ubicacion">Ubicación de la obra <span class="opcional">(opcional)</span></label><input id="f-ubicacion" name="ubicacion"></div>
+          <div class="campo"><label for="f-cantidad">Cantidad estimada de puertas <span class="opcional">(opcional)</span></label><input id="f-cantidad" name="cantidad" inputmode="numeric"></div>
+        </div>
+        <div class="campo campo--ancho">
+          <label for="f-mensaje">Mensaje <span class="opcional">(opcional)</span></label>
+          <textarea id="f-mensaje" name="mensaje" rows="5"></textarea>
+        </div>
+      </div>
+      <div class="formulario__pie">
+        <button class="contact-button" type="submit">Revisar mensaje <span class="flecha" aria-hidden="true">→</span></button>
+        <p class="nota">No guardamos tus datos en esta página. Se usan solo para armar el mensaje.</p>
+      </div>
+      <div class="revision" id="revision" aria-labelledby="revision-titulo" hidden>
+        <h2 id="revision-titulo" tabindex="-1">Revisá tu mensaje</h2>
+        <p class="nota">Así se abrirá en WhatsApp. Podés editarlo acá o allí antes de enviarlo.</p>
+        <label class="sr-only" for="revision-mensaje">Mensaje para WhatsApp, editable</label><textarea class="revision__mensaje" id="revision-mensaje" rows="10"></textarea>
+        <div class="acciones">
+          <a class="contact-button" id="whatsapp" href="https://wa.me/5491126696918" target="_blank" rel="noopener">Continuar en WhatsApp <span class="flecha" aria-hidden="true">↗</span><span class="sr-only"> (abre en otra pestaña)</span></a>
+          <button class="boton-texto" type="button" id="editar">Editar datos</button>
+        </div>
+      </div>
+      <p class="sr-only" id="form-status" role="status"></p>
+    </form>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer" id="pie" aria-labelledby="footer-title">
+    <div class="site-footer-inner">
+      <h2 class="sr-only" id="footer-title">Información de Marroncelli</h2>
+      <div class="site-footer-grid">
+        <div class="site-footer-brand">
+          <a href="index.html" aria-label="Marroncelli, inicio"><img src="assets/logo.svg" alt="Marroncelli" width="220" height="50" loading="lazy"></a>
+          <p>Fabricamos puertas de interior para acompañar tu arquitectura.</p>
+        </div>
+        <nav aria-label="Secciones del sitio">
+          <h3>Explorá</h3>
+          <ul>
+            <li><a href="index.html#empresa">Sobre nosotros</a></li>
+            <li><a href="puertas.html">Modelos de hojas</a></li>
+            <li><a href="sistemas-de-marcos.html">Sistemas de marcos</a></li>
+            <li><a href="obras.html">Obras realizadas</a></li>
+            <li><a href="https://www.marroncelli.com/distribuidores.php" target="_blank" rel="noopener">Distribuidores <span aria-hidden="true">↗</span></a></li>
+          </ul>
+        </nav>
+        <div class="site-footer-showroom">
+          <h3>Showroom</h3>
+          <address>
+            <span>Blas Parera 19</span>
+            <span>Esq. Av. Avelino Rolón</span>
+            <span>Boulogne, San Isidro</span>
+          </address>
+          <p class="showroom-hours">Lunes a viernes, de 8 a 17 h.<br>Atención con cita previa.</p>
+          <a class="footer-map" href="https://www.google.com/maps/search/?api=1&amp;query=Blas%20Parera%2019%2C%20Boulogne%2C%20San%20Isidro%2C%20Buenos%20Aires" target="_blank" rel="noopener">Cómo llegar <span aria-hidden="true">↗</span></a>
+        </div>
+        <div>
+          <h3>Contacto</h3>
+          <ul class="footer-contact-links">
+            <li><span>WhatsApp</span><a href="https://wa.me/5491126696918" target="_blank" rel="noopener">+54 9 11 2669-6918 <span aria-hidden="true">↗</span></a></li>
+            <li><span>Correo</span><a href="mailto:ventas@marroncelli.com">ventas@marroncelli.com</a></li>
+            <li><a href="contacto.html#contacto">Ir a contacto y consultas <span aria-hidden="true">↗</span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer-base">
+        <span>© 2026 Marroncelli · Puertas de interior</span>
+        <div class="site-footer-social" aria-label="Redes sociales">
+          <a href="https://www.instagram.com/marroncellioficial/" target="_blank" rel="noopener">Instagram <span aria-hidden="true">↗</span></a>
+          <a href="https://www.linkedin.com/company/aberturas-marroncelli/" target="_blank" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+        <a class="footer-top" href="#inicio">Volver arriba <span aria-hidden="true">↑</span></a>
+      </div>
+
+    </div>
+  </footer>
+</body>
+</html>
