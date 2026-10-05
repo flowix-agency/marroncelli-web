@@ -1,0 +1,66 @@
+.burdeos3d { background: #ebe7df; }
+.burdeos3d [hidden] { display: none !important; }
+.burdeos3d .leaf-section-heading { margin-bottom: 36px; }
+.burdeos3d-layout { display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(270px, 1fr); gap: clamp(28px, 4vw, 64px); align-items: start; }
+.burdeos3d-visual { position: sticky; top: calc(var(--header-height, 76px) + 86px); margin: 0; min-width: 0; }
+.burdeos3d-stage { position: relative; height: clamp(520px, 48vw, 670px); overflow: hidden; background: #e3ded5; }
+.burdeos3d-poster { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.burdeos3d-stage canvas { position: relative; display: block; width: 100%; height: 100%; opacity: 0; cursor: grab; touch-action: pan-y; }
+.burdeos3d-stage canvas:focus-visible { outline-offset: -6px; }
+.burdeos3d-stage canvas.is-dragging { cursor: grabbing; }
+.burdeos3d[data-state="ready"] canvas { opacity: 1; }
+.burdeos3d[data-state="ready"] .burdeos3d-poster, .burdeos3d[data-state="ready"] .burdeos3d-poster-note { display: none; }
+.burdeos3d-start { position: absolute; bottom: 28px; left: 50%; transform: translateX(-50%); border: 1px solid #8d8271; background: #f7f6f2; padding: 13px 24px; font: inherit; color: #302e29; white-space: nowrap; }
+.burdeos3d-start:disabled { opacity: .75; }
+.burdeos3d-visual figcaption { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px 16px; padding: 13px 0; border-bottom: 1px solid #c7c0b3; font-size: 11px; line-height: 1.5; color: #696356; }
+.burdeos3d-visual figcaption > span:first-child { color: #302e29; }
+.burdeos3d-help, .burdeos3d-poster-note, .burdeos3d-status { font-size: 11px; color: #696356; line-height: 1.6; margin: 12px 0 0; }
+.burdeos3d-status { min-height: 36px; }
+.burdeos3d-controls { min-width: 0; border: 0; padding: 0; margin: 0; }
+.burdeos3d-controls:disabled { opacity: .5; }
+.burdeos3d-group { padding: 22px 0; border-bottom: 1px solid #c7c0b3; }
+.burdeos3d-group:first-of-type { padding-top: 0; }
+.burdeos3d-group h3 { display: flex; justify-content: space-between; gap: 10px; margin: 0 0 13px; font: 400 15px/1.4 "Hanken Grotesk", Arial, sans-serif; letter-spacing: 0; }
+.burdeos3d-group h3 > span { color: #696356; font-size: 12px; }
+.burdeos3d-checks { display: flex; flex-wrap: wrap; gap: 6px 20px; }
+.burdeos3d-checks label { display: flex; align-items: center; gap: 8px; min-height: 44px; cursor: pointer; font-size: 13px; }
+.burdeos3d-checks input { width: 16px; height: 16px; margin: 0; accent-color: #806b43; }
+.burdeos3d-swatches { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.burdeos3d-swatches button { display: flex; align-items: center; gap: 7px; min-height: 44px; padding: 6px 5px; border: 0; border-bottom: 1px solid transparent; background: transparent; color: #696356; font: 12px/1.3 "Hanken Grotesk", Arial, sans-serif; text-align: left; }
+.burdeos3d-swatches button::before { content: ""; flex: 0 0 24px; height: 28px; background: var(--swatch); border: 1px solid #302e2920; }
+.burdeos3d-swatches button[data-burdeos3d-finish="nogal"]::before { background: #916844 url('assets/img/madera-maciza-nogal-grande.webp') center / cover; }
+.burdeos3d-swatches button[aria-pressed="true"] { border-bottom-color: #302e29; color: #302e29; }
+.burdeos3d-swatches button:hover { background: #f7f6f280; }
+.burdeos3d-control-note { margin: 12px 0 0; font-size: 11px; line-height: 1.6; color: #696356; }
+.burdeos3d-range { display: grid; grid-template-columns: 1fr auto; gap: 9px 16px; margin-top: 20px; font-size: 13px; }
+.burdeos3d-range:first-child { margin-top: 0; }
+.burdeos3d-range output { font-variant-numeric: tabular-nums; color: #696356; }
+.burdeos3d-range input { grid-column: 1 / -1; margin: 0; width: 100%; min-height: 32px; accent-color: #806b43; }
+.burdeos3d-camera { display: flex; flex-wrap: wrap; gap: 8px; }
+.burdeos3d-camera button { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; padding: 8px 12px; border: 1px solid #bcb4a6; color: #302e29; background: transparent; font: 13px "Hanken Grotesk", Arial, sans-serif; }
+.burdeos3d-camera button:hover { background: #f7f6f2; }
+.burdeos3d-camera [data-burdeos3d-reset] { margin-left: auto; border: 0; padding-right: 0; font-size: 11px; text-decoration: underline; text-underline-offset: 4px; }
+.burdeos3d-assembly { width: 100%; min-height: 48px; margin-top: 18px; padding: 12px 16px; background: #302e29; color: #f7f6f2; border: 1px solid #302e29; font: 13px "Hanken Grotesk", Arial, sans-serif; }
+.burdeos3d-assembly:hover { background: #514c42; }
+.burdeos3d-empty { position: absolute; left: 24px; right: 24px; top: 42%; text-align: center; color: #696356; font-size: 14px; pointer-events: none; }
+.burdeos3d-notes { display: grid; grid-template-columns: 1fr 1fr; gap: 16px 40px; margin-top: 32px; padding-top: 20px; border-top: 1px solid #c7c0b3; }
+.burdeos3d-notes p { margin: 0; color: #696356; font-size: 12px; line-height: 1.7; max-width: 65ch; }
+.burdeos3d-notes strong { color: #302e29; font-weight: 400; }
+.burdeos3d-notes [data-burdeos3d-combination-note] { grid-column: 1 / -1; }
+@media (max-width: 1000px) {
+  .burdeos3d-layout { gap: 28px; grid-template-columns: minmax(0, 1.3fr) minmax(270px, 1fr); }
+  .burdeos3d-swatches { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .burdeos3d-visual { top: calc(var(--header-height, 76px) + 78px); }
+}
+@media (max-width: 760px) {
+  .burdeos3d-layout { grid-template-columns: 1fr; gap: 28px; }
+  .burdeos3d-visual { position: relative; top: auto; }
+  .burdeos3d-stage { height: min(540px, 110vw); min-height: 380px; }
+  .burdeos3d-swatches { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .burdeos3d-notes { grid-template-columns: 1fr; gap: 14px; }
+}
+@media print {
+  .burdeos3d-visual { position: static; }
+  .burdeos3d-stage canvas, .burdeos3d-controls, .burdeos3d-start, .burdeos3d-help, .burdeos3d-status { display: none; }
+  .burdeos3d[data-state="ready"] .burdeos3d-poster { display: block; }
+}

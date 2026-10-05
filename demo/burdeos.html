@@ -14,9 +14,14 @@
   <link rel="stylesheet" href="footer.css?v=20260927-movimiento-2">
   <script src="navegacion.js?v=20260927-movimiento-2" defer></script>
   <script src="acabados-movimiento.js?v=20260927-movimiento-2" defer></script>
-  <script src="modelo-puerta.js?v=20260927-movimiento-2" defer></script>
+  <script src="modelo-puerta.js?v=20261004-burdeos-1" defer></script>
   <link rel="stylesheet" href="navegacion.css?v=20260927-movimiento-2">
   <link rel="stylesheet" href="acabados-movimiento.css?v=20260927-movimiento-2">
+  <link rel="stylesheet" href="burdeos-producto.css?v=20261004-burdeos-1">
+  <link rel="stylesheet" href="burdeos-3d.css?v=20261004-burdeos-1">
+  <link rel="stylesheet" href="burdeos-medidas.css?v=20261004-burdeos-1">
+  <script src="burdeos-3d.js?v=20261004-burdeos-1" defer></script>
+  <script src="burdeos-medidas.js?v=20261004-burdeos-1" defer></script>
   <link rel="stylesheet" href="movimiento.css?v=20260927-tercio-4">
   <script src="movimiento.js?v=20260927-tercio-4" defer></script>
 </head>
@@ -74,7 +79,7 @@
 
     <nav class="leaf-nav" aria-label="En esta puerta">
       <span class="leaf-nav-name">Burdeos</span>
-      <div><a href="#acabados">01 / Acabados</a><a href="#marco">02 / Marcos</a><a href="#detalles">03 / Detalles</a></div>
+      <div><a href="#acabados">Acabados</a><a href="#explorador-3d">Modelo 3D</a><a href="#marco">Marcos</a><a href="#detalles">Detalles</a></div>
       <a class="leaf-nav-query" href="#consulta">Tu selección <span aria-hidden="true">↗</span></a>
     </nav>
 
@@ -85,24 +90,99 @@
           <figure class="leaf-render">
             <span class="leaf-render-overline">Burdeos / Vista de la hoja</span>
             <img id="leaf-render-image" src="assets/img/burdeos-mad-nogal-a1-grande.webp" alt="Render oficial de Burdeos en nogal macizo, vista frontal con marco" width="600" height="600" loading="lazy">
-            <figcaption><span id="leaf-render-caption">Nogal macizo</span><span>Render de referencia</span></figcaption>
-            <p>El marco y la apertura del render son ilustrativos; se eligen por separado.</p>
+            <figcaption><span id="leaf-render-caption">Nogal macizo</span><span data-render-origin-label>Render de catálogo</span></figcaption>
+            <p>Colores y veta de referencia. El marco y la apertura de las imágenes son ilustrativos; se eligen por separado.</p>
           </figure>
           <div class="finish-choices" id="paso-terminacion">
-            <fieldset class="finish-options"><legend>Acabado de interés</legend><label><input type="radio" name="acabado" value="nogal" data-name="Nogal macizo" data-render="burdeos-mad-nogal-a1-grande.webp" data-texture="madera-maciza-nogal-grande.webp" data-room="tableros-nogal" checked><span><img src="assets/img/madera-maciza-nogal-grande.webp" width="64" height="64" alt=""><span>Nogal macizo<small>Muestra de referencia</small></span><span class="finish-check" aria-hidden="true">✓</span></span></label><label><input type="radio" name="acabado" value="blanco" data-name="Blanco" data-render="burdeos-pin-blanco-a1-grande.webp" data-texture="blanco-grande.webp" data-room="tableros-blanco"><span><img src="assets/img/blanco-grande.webp" width="64" height="64" alt=""><span>Blanco<small>Pintado blanco</small></span><span class="finish-check" aria-hidden="true">✓</span></span></label></fieldset>
+            <fieldset class="finish-options burdeos-finish-options"><legend>Acabado de interés</legend><label><input type="radio" name="acabado" value="nogal" data-name="Nogal macizo" data-render="burdeos-mad-nogal-a1-grande.webp" data-render-origin="Render de catálogo"  data-texture="madera-maciza-nogal-grande.webp" data-room="tableros-nogal" checked><span><img src="assets/img/madera-maciza-nogal-grande.webp" width="64" height="64" alt=""><span>Nogal macizo<small>Muestra de referencia</small></span><span class="finish-check" aria-hidden="true">✓</span></span></label><label><input type="radio" name="acabado" value="blanco" data-name="Blanco" data-render="burdeos-pin-blanco-a1-grande.webp" data-render-origin="Render de catálogo"  data-texture="burdeos-muestra-blanco.svg" data-room="tableros-blanco"><span><img src="assets/img/burdeos-muestra-blanco.svg" width="64" height="64" alt=""><span>Blanco<small>Pintado blanco</small></span><span class="finish-check" aria-hidden="true">✓</span></span></label><label><input type="radio" name="acabado" value="gris" data-name="Gris" data-render="../burdeos-3d/burdeos-gris.webp" data-render-origin="Render del modelo 3D" data-render-alt="Render de estudio de Burdeos en gris, con marco y contramarco; colores aproximados" data-texture="burdeos-muestra-gris.svg" data-room="tableros-blanco"><span><img src="assets/img/burdeos-muestra-gris.svg" width="64" height="64" alt=""><span>Gris<small>Pintado gris</small></span><span class="finish-check" aria-hidden="true">✓</span></span></label><label><input type="radio" name="acabado" value="negro" data-name="Negro" data-render="../burdeos-3d/burdeos-negro.webp" data-render-origin="Render del modelo 3D" data-render-alt="Render de estudio de Burdeos en negro, con marco y contramarco; colores aproximados" data-texture="burdeos-muestra-negro.svg" data-room="tableros-blanco"><span><img src="assets/img/burdeos-muestra-negro.svg" width="64" height="64" alt=""><span>Negro<small>Pintado negro</small></span><span class="finish-check" aria-hidden="true">✓</span></span></label><label><input type="radio" name="acabado" value="rosa" data-name="Rosa" data-render="../burdeos-3d/burdeos-rosa.webp" data-render-origin="Render del modelo 3D" data-render-alt="Render de estudio de Burdeos en rosa, con marco y contramarco; colores aproximados" data-texture="burdeos-muestra-rosa.svg" data-room="tableros-blanco"><span><img src="assets/img/burdeos-muestra-rosa.svg" width="64" height="64" alt=""><span>Rosa<small>Pintado rosa</small></span><span class="finish-check" aria-hidden="true">✓</span></span></label><label><input type="radio" name="acabado" value="verde" data-name="Verde" data-render="../burdeos-3d/burdeos-verde.webp" data-render-origin="Render del modelo 3D" data-render-alt="Render de estudio de Burdeos en verde, con marco y contramarco; colores aproximados" data-texture="burdeos-muestra-verde.svg" data-room="tableros-blanco"><span><img src="assets/img/burdeos-muestra-verde.svg" width="64" height="64" alt=""><span>Verde<small>Pintado verde</small></span><span class="finish-check" aria-hidden="true">✓</span></span></label></fieldset>
             <figure class="wood-detail"><img id="wood-detail-image" src="assets/img/madera-maciza-nogal-grande.webp" width="600" height="600" alt="Muestra de referencia de nogal macizo" loading="lazy"><figcaption>Una mirada de cerca a la superficie.</figcaption></figure>
-            <p class="leaf-note">Las muestras orientan la elección. El tono y la terminación se definen con el equipo comercial.</p>
-            <details class="leaf-accordion"><summary>Terminaciones de la línea <span aria-hidden="true">+</span></summary><div class="leaf-accordion-body"><h3>Madera maciza</h3><p>Nogal, con recubrimiento poliuretánico al agua, sin teñir.</p><h3>Pintados</h3><p>Blanco, gris, negro, rosa y verde, con lacas al agua.</p><p class="leaf-note">Podés consultar por cualquiera de estos colores. En esta vista se visualizan nogal y blanco.</p></div></details>
-            <a class="leaf-text-link finish-next" href="#marco">Ahora, el encuentro con la pared <span aria-hidden="true">↓</span></a>
+            <p class="leaf-note">Las muestras orientan la elección. El tono y la terminación se definen con el equipo comercial. El ambiente del encabezado es una referencia de diseño y no reproduce cada color.</p>
+            <details class="leaf-accordion"><summary>Terminaciones de la línea <span aria-hidden="true">+</span></summary><div class="leaf-accordion-body"><h3>Madera maciza</h3><p>Nogal, con recubrimiento poliuretánico al agua, sin teñir.</p><h3>Pintados</h3><p>Blanco, gris, negro, rosa y verde, con lacas al agua.</p><p class="leaf-note">Los seis acabados se pueden explorar en el render y en el modelo 3D. El tono final se confirma con una muestra física.</p></div></details>
+            <a class="leaf-text-link finish-next" href="#explorador-3d">Explorá la puerta en 3D <span aria-hidden="true">↓</span></a>
           </div>
         </div>
         <p class="sr-only" id="finish-status" role="status"></p>
       </div>
     </section>
 
+    <section class="leaf-section burdeos3d" id="explorador-3d" data-burdeos-3d data-state="poster" aria-labelledby="burdeos3d-title">
+      <div class="leaf-inner">
+        <header class="leaf-section-heading">
+          <div><p class="leaf-eyebrow">El conjunto, en tres dimensiones</p><h2 id="burdeos3d-title">Burdeos,<br>desde cada ángulo.</h2></div>
+          <p>Girá la puerta, mirá sus piezas y explorá la relación entre la hoja y el marco.</p>
+        </header>
+        <div class="burdeos3d-layout">
+          <figure class="burdeos3d-visual">
+            <div class="burdeos3d-stage">
+              <img class="burdeos3d-poster" src="assets/burdeos-3d/burdeos-nogal.webp" alt="Render de estudio de Burdeos en nogal con marco y contramarco" width="900" height="1150" loading="lazy">
+              <button type="button" class="burdeos3d-start" data-burdeos3d-start>Activar vista 3D</button>
+              <p class="burdeos3d-empty" data-burdeos3d-empty hidden>Activá una pieza para verla en el conjunto.</p>
+            </div>
+            <figcaption><span data-burdeos3d-summary>Hoja nogal · marco blanco</span><span>Modelo de estudio · Burdeos</span></figcaption>
+            <p class="burdeos3d-poster-note">La vista previa es un render con hoja y marco del mismo acabado. Los cambios independientes se ven al activar el 3D.</p>
+            <p class="burdeos3d-help" id="burdeos3d-help">Arrastrá horizontalmente para girar. Con mouse también podés variar la altura. Usá los botones para acercar; la rueda y el gesto vertical conservan el scroll. Con la vista enfocada: flechas para girar, +/− para zoom e Inicio para volver.</p>
+            <p class="burdeos3d-status" data-burdeos3d-status role="status" aria-live="polite">El 3D se prepara al llegar a esta sección.</p>
+          </figure>
+          <fieldset class="burdeos3d-controls" disabled>
+            <legend class="sr-only">Explorar la vista 3D de Burdeos</legend>
+            <div class="burdeos3d-group">
+              <h3>Las piezas del conjunto</h3>
+              <div class="burdeos3d-checks">
+                <label><input type="checkbox" data-burdeos3d-part="leaf" checked>Hoja</label>
+                <label><input type="checkbox" data-burdeos3d-part="frame" checked>Marco</label>
+                <label><input type="checkbox" data-burdeos3d-part="pre" checked>Premarco</label>
+              </div>
+            </div>
+            <div class="burdeos3d-group">
+              <h3 id="burdeos3d-leaf-label">Acabado de la hoja <span data-burdeos3d-leaf-name>Nogal</span></h3>
+              <div class="burdeos3d-swatches" role="group" aria-labelledby="burdeos3d-leaf-label"><button type="button" data-part="leaf" data-burdeos3d-finish="blanco" style="--swatch: #e2e0d7" aria-pressed="false" aria-label="Blanco, hoja">Blanco</button>
+<button type="button" data-part="leaf" data-burdeos3d-finish="gris" style="--swatch: #a7a39a" aria-pressed="false" aria-label="Gris, hoja">Gris</button>
+<button type="button" data-part="leaf" data-burdeos3d-finish="negro" style="--swatch: #30322f" aria-pressed="false" aria-label="Negro, hoja">Negro</button>
+<button type="button" data-part="leaf" data-burdeos3d-finish="rosa" style="--swatch: #bc8588" aria-pressed="false" aria-label="Rosa, hoja">Rosa</button>
+<button type="button" data-part="leaf" data-burdeos3d-finish="verde" style="--swatch: #939f6c" aria-pressed="false" aria-label="Verde, hoja">Verde</button>
+<button type="button" data-part="leaf" data-burdeos3d-finish="nogal" style="--swatch: #916844" aria-pressed="true" aria-label="Nogal, hoja">Nogal</button></div>
+              <p class="burdeos3d-control-note">Este acabado se conserva en tu selección y en la consulta de la puerta.</p>
+            </div>
+            <div class="burdeos3d-group">
+              <h3 id="burdeos3d-frame-label">Acabado del marco <span data-burdeos3d-frame-name>Blanco</span></h3>
+              <div class="burdeos3d-swatches" role="group" aria-labelledby="burdeos3d-frame-label"><button type="button" data-part="frame" data-burdeos3d-finish="blanco" style="--swatch: #e2e0d7" aria-pressed="true" aria-label="Blanco, marco">Blanco</button>
+<button type="button" data-part="frame" data-burdeos3d-finish="gris" style="--swatch: #a7a39a" aria-pressed="false" aria-label="Gris, marco">Gris</button>
+<button type="button" data-part="frame" data-burdeos3d-finish="negro" style="--swatch: #30322f" aria-pressed="false" aria-label="Negro, marco">Negro</button>
+<button type="button" data-part="frame" data-burdeos3d-finish="rosa" style="--swatch: #bc8588" aria-pressed="false" aria-label="Rosa, marco">Rosa</button>
+<button type="button" data-part="frame" data-burdeos3d-finish="verde" style="--swatch: #939f6c" aria-pressed="false" aria-label="Verde, marco">Verde</button>
+<button type="button" data-part="frame" data-burdeos3d-finish="nogal" style="--swatch: #916844" aria-pressed="false" aria-label="Nogal, marco">Nogal</button></div>
+              <p class="burdeos3d-control-note">Prueba visual independiente. El acabado del marco no se agrega a tu selección comercial; su disponibilidad se confirma con Marroncelli.</p>
+            </div>
+            <div class="burdeos3d-group">
+              <div class="burdeos3d-range"><label for="burdeos3d-opening">Apertura ilustrativa</label><output data-burdeos3d-opening-value for="burdeos3d-opening">0°</output><input type="range" id="burdeos3d-opening" data-burdeos3d-opening min="0" max="95" step="1" value="0"></div>
+              <div class="burdeos3d-range"><label for="burdeos3d-separation">Separación de las piezas</label><output data-burdeos3d-separation-value for="burdeos3d-separation">0%</output><input type="range" id="burdeos3d-separation" data-burdeos3d-separation min="0" max="100" step="1" value="0"></div>
+              <p class="burdeos3d-control-note">El movimiento permite entender el conjunto. No indica la apertura máxima del producto ni una secuencia de instalación.</p>
+            </div>
+            <div class="burdeos3d-group">
+              <div class="burdeos3d-camera" role="group" aria-label="Control de la vista">
+                <button type="button" data-burdeos3d-turn="-1" aria-label="Girar vista a la izquierda">←</button>
+                <button type="button" data-burdeos3d-turn="1" aria-label="Girar vista a la derecha">→</button>
+                <button type="button" data-burdeos3d-zoom="-1" aria-label="Acercar vista">+</button>
+                <button type="button" data-burdeos3d-zoom="1" aria-label="Alejar vista">−</button>
+                <button type="button" data-burdeos3d-reset>Restablecer</button>
+              </div>
+              <button type="button" class="burdeos3d-assembly" data-burdeos3d-assembly aria-pressed="false">Ver secuencia de ensamble</button>
+            </div>
+          </fieldset>
+        </div>
+        <div class="burdeos3d-notes">
+          <p><strong>Conjunto de referencia.</strong> La demostración representa una hoja simple Burdeos con marco y contramarco, con premarco opcional. No reproduce todas las aperturas ni todos los sistemas de la ficha.</p>
+          <p><strong>Geometría de estudio.</strong> Los tableros de este modelo tienen 25 mm, incluso al visualizar nogal. La ficha vigente indica 42 mm para el tablero de madera maciza. Colores y vetas son orientativos.</p>
+          <p data-burdeos3d-walnut-note>La vista en nogal cambia el material de la superficie; conserva la geometría de estudio. Consultá la construcción de la versión maciza en los detalles técnicos.</p>
+          <p data-burdeos3d-combination-note hidden><strong>Tu selección es distinta.</strong> El visor sigue mostrando hoja simple con marco y contramarco. La apertura y el sistema que elegiste en la ficha se conservan en tu consulta.</p>
+        </div>
+      </div>
+    </section>
+
+
     <section class="leaf-section leaf-frames" id="marco" aria-labelledby="frame-title">
       <div class="leaf-inner">
-        <header class="leaf-section-heading"><div><p class="leaf-eyebrow">02 / Elegí el sistema</p><h2 id="frame-title">El detalle que<br>cambia el conjunto.</h2></div><p>El marco define cómo se encuentra la hoja con la pared. Mirá su estructura y elegí el que te interesa.</p></header>
+        <header class="leaf-section-heading"><div><p class="leaf-eyebrow">03 / Elegí el sistema</p><h2 id="frame-title">El detalle que<br>cambia el conjunto.</h2></div><p>El marco define cómo se encuentra la hoja con la pared. Mirá su estructura y elegí el que te interesa.</p></header>
         <div class="frame-layout">
           <figure class="frame-drawing" id="frame-drawing"><img id="frame-image" src="assets/img/marco-y-contramarco-seccion-1100.webp" width="820" height="721" alt="Corte del sistema Marco y contramarco, con el contramarco sobre la pared" loading="lazy"><figcaption><span id="frame-image-caption">Marco y contramarco</span><span>Render de sección · Ficha técnica</span></figcaption></figure>
           <div class="frame-unpictured" id="frame-unpictured" hidden><p class="leaf-eyebrow">Burdeos / Asesoramiento</p><h3 id="unpictured-title">El sistema para tu apertura</h3><p id="unpictured-text">Los detalles de este sistema se definen con el equipo comercial.</p><a class="leaf-text-link" href="#consulta">Incluirlo en mi consulta <span aria-hidden="true">↗</span></a></div>
@@ -123,7 +203,7 @@
 
     <section class="leaf-section leaf-details" id="detalles" aria-labelledby="details-title">
       <div class="leaf-inner">
-        <header class="leaf-section-heading"><div><p class="leaf-eyebrow">03 / Pensada para tu proyecto</p><h2 id="details-title">La forma de abrir.<br>Las medidas. Los detalles.</h2></div><a class="leaf-text-link" href="assets/pdf/puerta-burdeos.pdf" target="_blank" rel="noopener">Ficha técnica de Burdeos <span aria-hidden="true">↗</span></a></header>
+        <header class="leaf-section-heading"><div><p class="leaf-eyebrow">04 / Pensada para tu proyecto</p><h2 id="details-title">La forma de abrir.<br>Las medidas. Los detalles.</h2></div><a class="leaf-text-link" href="assets/pdf/puerta-burdeos.pdf" target="_blank" rel="noopener">Ficha técnica de Burdeos <span aria-hidden="true">↗</span></a></header>
         <fieldset class="opening-choices" id="paso-apertura"><legend>¿Qué apertura imaginás?</legend><div><label class="opening-option"><input type="radio" name="apertura" value="simple" checked><span><svg aria-hidden="true"><use href="#ap-simple"/></svg>Simple</span></label>
 <label class="opening-option"><input type="radio" name="apertura" value="doble" ><span><svg aria-hidden="true"><use href="#ap-doble"/></svg>Doble</span></label>
 <label class="opening-option"><input type="radio" name="apertura" value="pano" ><span><svg aria-hidden="true"><use href="#ap-pano"/></svg>Con paño superior fijo</span></label>
@@ -139,6 +219,17 @@
             <details class="leaf-accordion"><summary>Fichas para tu obra <span aria-hidden="true">+</span></summary><div class="leaf-accordion-body"><ul class="leaf-downloads"><li><a href="assets/pdf/puerta-burdeos.pdf" target="_blank" rel="noopener">Burdeos<span>PDF ↗</span></a></li><li><a href="assets/pdf/marco-y-contramarco.pdf" target="_blank" rel="noopener">Marco y contramarco<span>PDF ↗</span></a></li><li><a href="assets/pdf/marco-buna-filo-interior.pdf" target="_blank" rel="noopener">Buña filo interior<span>PDF ↗</span></a></li><li><a href="assets/pdf/marco-buna-filo-exterior.pdf" target="_blank" rel="noopener">Buña filo exterior<span>PDF ↗</span></a></li></ul><p class="leaf-note">Las fichas de marco son recursos generales. La combinación con esta hoja y apertura se confirma para tu proyecto.</p></div></details>
           </div>
         </div>
+<details class="leaf-accordion burdeos-measures" id="medidas-burdeos">
+  <summary>Entendé las medidas de tu puerta <span aria-hidden="true">+</span></summary>
+  <div class="burdeos-measures-body">
+    <p class="burdeos-measures-intro">El paso, el marco y el hueco de la pared son medidas diferentes. Explorá cómo se relacionan en este esquema de una hoja.</p>
+    <p class="burdeos-measures-status" role="status">Abrí esta sección para cargar el esquema.</p>
+    <button class="burdeos-measures-retry" type="button" hidden>Volver a cargar el esquema</button>
+    <div class="burdeos-measures-lab" hidden></div>
+    <noscript><p>Activá JavaScript para explorar el esquema. Podés consultar las medidas y la disponibilidad con el equipo comercial.</p></noscript>
+  </div>
+</details>
+
       </div>
     </section>
 

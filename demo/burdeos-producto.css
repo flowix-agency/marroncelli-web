@@ -1,0 +1,33 @@
+.burdeos-finish-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 22px;
+}
+.burdeos-finish-options label > span {
+  gap: 12px;
+  min-height: 94px;
+  padding: 16px 0;
+  font-size: 16px;
+}
+.burdeos-finish-options img { width: 42px; height: 42px; }
+.burdeos-finish-options label small { font-size: 11px; line-height: 1.35; }
+.burdeos-finish-options .finish-check { font-size: 16px; }
+.burdeos-finish-options label:nth-last-child(-n+2) > span { border-bottom: 1px solid var(--rule); }
+.leaf-render > img { mix-blend-mode: normal; }
+.leaf-render > p { max-width: 58ch; }
+@media (max-width: 1100px) and (min-width: 761px) {
+  .burdeos-finish-options { gap: 0 14px; }
+  .burdeos-finish-options label > span { font-size: 14px; gap: 8px; }
+  .burdeos-finish-options img { width: 32px; height: 40px; }
+}
+@media (max-width: 760px) {
+  .leaf-nav { gap: 14px; }
+  .leaf-nav > div { overflow-x: auto; min-width: 0; gap: 20px; scrollbar-width: none; }
+  .leaf-nav > div a { white-space: nowrap; }
+  .leaf-nav-query { flex: 0 0 auto; }
+}
+@media (max-width: 390px) {
+  .burdeos-finish-options { gap: 0 12px; }
+  .burdeos-finish-options label > span { font-size: 14px; gap: 8px; }
+  .burdeos-finish-options img { width: 32px; height: 40px; }
+}

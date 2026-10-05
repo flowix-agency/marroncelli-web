@@ -154,7 +154,9 @@ const modelRooms = {
       { image: roomImage, src: roomSrc, srcset: roomSrcset }
     ], () => {
       render.src = `assets/img/${selected.render}`;
-      render.alt = `Render oficial de ${model} en ${selected.name.toLowerCase()}, vista frontal con marco`;
+      render.alt = selected.renderAlt || `Render oficial de ${model} en ${selected.name.toLowerCase()}, vista frontal con marco`;
+      const renderOrigin = document.querySelector('[data-render-origin-label]');
+      if (renderOrigin) renderOrigin.textContent = selected.renderOrigin;
       texture.src = `assets/img/${selected.texture}`;
       texture.alt = `Muestra del acabado ${selected.name.toLowerCase()}`;
       roomImage.srcset = roomSrcset;
